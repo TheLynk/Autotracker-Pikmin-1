@@ -1,1 +1,554 @@
-[]
+[
+  {
+    "name": "The Forest Navel",
+    "children": [
+      {
+        "name": "Spawn",
+        "sections": [
+          {
+            "name": "FN Exploration",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/visit.png",
+            "chest_opened_img": "images/minor checks/visit_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "FN 100%",
+            "access_rules": [
+              "yellow_pikmin, blue_pikmin, forest_of_hope, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/area_100.png",
+            "chest_opened_img": "images/minor checks/area_100_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 530,
+            "y": 500,
+            "size": 30,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Onion",
+        "sections": [
+          {
+            "name": "Discover the Blue Onion",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/blue_onion.png",
+            "chest_opened_img": "images/minor checks/blue_onion_gray.png",
+            "item_count": 1
+          }
+        ]        ,
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 330,
+            "y": 440,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "Analog Computer",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/analog_computer.png",
+            "chest_opened_img": "images/minor checks/analog_computer_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 515,
+            "y": 160,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Ionium Jet 1",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/ionium_jet_1_2.png",
+            "chest_opened_img": "images/minor checks/ionium_jet_1_2_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 375,
+            "y": 285,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Libra",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel, blue_pikmin, forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/sagittarius_and_libra.png",
+            "chest_opened_img": "images/minor checks/sagittarius_and_libra_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 70,
+            "y": 310,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Automatic Gear",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/automatic_gear.png",
+            "chest_opened_img": "images/minor checks/automatic_gear_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 330,
+            "y": 625,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Guard Satellite",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel, forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/guard_satellite.png",
+            "chest_opened_img": "images/minor checks/guard_satellite_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 890,
+            "y": 660,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Anti-Dioxin Filter",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/anti-dioxin_filter.png",
+            "chest_opened_img": "images/minor checks/anti-dioxin_filter_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 190,
+            "y": 1005,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Gravity Jumper",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/gravity_jumper.png",
+            "chest_opened_img": "images/minor checks/gravity_jumper_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 450,
+            "y": 1055,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Space Float",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/space_float.png",
+            "chest_opened_img": "images/minor checks/space_float_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 550,
+            "y": 1050,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Omega Stabilizer",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/omega_stabilizer.png",
+            "chest_opened_img": "images/minor checks/omega_stabilizer_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 840,
+            "y": 910,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "FN Break white wall near red onion",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/break_white_wall.png",
+            "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 553,
+            "y": 410,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Break black wall near Beady Long Legs",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/break_black_wall.png",
+            "chest_opened_img": "images/minor checks/break_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 747,
+            "y": 763,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Break black wall near beach",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/break_black_wall.png",
+            "chest_opened_img": "images/minor checks/break_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 225,
+            "y": 620,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Blast white wall near blue onion",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 463,
+            "y": 556,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Blast white wall between black wall and the bridge",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 631,
+            "y": 652,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Blast white wall near Beady Long Legs",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_white_wall.png",
+            "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 800,
+            "y": 750,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Blast black wall near beach",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_black_wall.png",
+            "chest_opened_img": "images/minor checks/blast_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 410,
+            "y": 665,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Blast black wall near white wall",
+        "sections": [
+          {
+            "name": "Wall",
+            "access_rules": [
+              "forest_of_hope, yellow_pikmin, forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/blast_black_wall.png",
+            "chest_opened_img": "images/minor checks/blast_black_wall_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 712,
+            "y": 651,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Build bridge spawn to land",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 557,
+            "y": 693,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Build bridge land to beach",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 529,
+            "y": 778,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Build bridge beach to upper",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 440,
+            "y": 1115,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Build bridge upper to beach",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 463,
+            "y": 1020,
+            "size": 20
+          }
+        ]
+      },
+      {
+        "name": "FN Build bridge land to island",
+        "sections": [
+          {
+            "name": "Bridge",
+            "access_rules": [
+              "forest_navel"
+            ],
+            "chest_unopened_img": "images/minor checks/bridge.png",
+            "chest_opened_img": "images/minor checks/bridge_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "forest_navel",
+            "x": 258,
+            "y": 364,
+            "size": 20
+          }
+        ]
+      }
+    ]
+  }
+]

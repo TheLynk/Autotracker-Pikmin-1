@@ -2,25 +2,40 @@
 "settings_popup": {
     "type": "container",
     "background": "#000000",
-    "margin": "6, 6",
     "content": {
-      "type": "tabbed",
-      "tabs": [
+      "type": "dock",
+      "dropshadow": true,
+      "content": [
         {
-          "title": "Hard Logic",
-          "content": [
-            {
-              "type": "itemgrid",
-              "item_h_alignment": "left",
-              "item_size": "600, 100",
-              "rows": [
-                [ "louie_option" ]             
-              ]
-            }
-          ]
+          "type": "group",
+          "header": "Game",
+          "dock":"left",
+          "content": {
+              "type": "dock",
+              "dock": "left",
+              "content": [
+                {
+                "type": "group",
+                "header": "Logic",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "logic_difficulty"
+                }
+                },
+                {
+                "type": "group",
+                "header": "Goal",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "goal"
+                }
+                }
+            ]
+          }
         }
-        
-        ]
-        }
+      ]
     }
+  }
 }

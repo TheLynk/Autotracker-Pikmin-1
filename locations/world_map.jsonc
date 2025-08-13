@@ -208,6 +208,145 @@
             "size": 60
           }
         ]
+      },
+      {
+        "name": "The Forest Navel | Spawn",
+        "sections": [
+          {
+            "ref": "The Forest Navel/Spawn/FN Exploration",
+            "name": "Exploration"
+          },
+          {
+            "ref": "The Forest Navel/Spawn/FN 100%",
+            "name": "100%"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1670,
+            "y": 1090,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Forest Navel | Ship Part",
+        "sections": [
+          {
+            "ref": "The Forest Navel/Analog Computer/Ship Part",
+            "name": "Analog Computer"
+          },
+          {
+            "ref": "The Forest Navel/Ionium Jet 1/Ship Part",
+            "name": "Ionium Jet 1"
+          },
+          {
+            "ref": "The Forest Navel/Libra/Ship Part",
+            "name": "Libra"
+          },
+          {
+            "ref": "The Forest Navel/Automatic Gear/Ship Part",
+            "name": "Automatic Gear"
+          },
+          {
+            "ref": "The Forest Navel/Guard Satellite/Ship Part",
+            "name": "Guard Satellite"
+          },
+          {
+            "ref": "The Forest Navel/Anti-Dioxin Filter/Ship Part",
+            "name": "Anti-Dioxin Filter"
+          },
+          {
+            "ref": "The Forest Navel/Gravity Jumper/Ship Part",
+            "name": "Gravity Jumper"
+          },
+          {
+            "ref": "The Forest Navel/Space Float/Ship Part",
+            "name": "Space Float"
+          },
+          {
+            "ref": "The Forest Navel/Omega Stabilizer/Ship Part",
+            "name": "Omega Stabilizer"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1740,
+            "y": 1090,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Forest Navel | Other",
+        "sections": [
+          {
+            "ref": "The Forest Navel/Onion/Discover the Blue Onion"
+          },
+          {
+            "ref": "The Forest Navel/FN Break white wall near red onion/Wall",
+            "name": "FN Break white wall near red onion"
+          },
+          {
+            "ref": "The Forest Navel/FN Break black wall near Beady Long Legs/Wall",
+            "name": "FN Break black wall near Beady Long Legs"
+          },
+          {
+            "ref": "The Forest Navel/FN Break black wall near beach/Wall",
+            "name": "FN Break black wall near beach"
+          },
+          {
+            "ref": "The Forest Navel/FN Blast white wall near blue onion/Wall",
+            "name": "FN Blast white wall near blue onion"
+          },
+          {
+            "ref": "The Forest Navel/FN Blast white wall between black wall and the bridge/Wall",
+            "name": "FN Blast white wall between black wall and the bridge"
+          },
+          {
+            "ref": "The Forest Navel/FN Blast white wall near Beady Long Legs/Wall",
+            "name": "FN Blast white wall near Beady Long Legs"
+          },
+          {
+            "ref": "The Forest Navel/FN Blast black wall near beach/Wall",
+            "name": "FN Blast black wall near beach"
+          },
+          {
+            "ref": "The Forest Navel/FN Blast black wall near white wall/Wall",
+            "name": "FN Blast black wall near white wall"
+          },
+          {
+            "ref": "The Forest Navel/FN Build bridge spawn to land/Bridge",
+            "name": "FN Build bridge spawn to land"
+          },
+          {
+            "ref": "The Forest Navel/FN Build bridge land to beach/Bridge",
+            "name": "FN Build bridge land to beach"
+          },
+          {
+            "ref": "The Forest Navel/FN Build bridge beach to upper/Bridge",
+            "name": "FN Build bridge beach to upper"
+          },
+          {
+            "ref": "The Forest Navel/FN Build bridge upper to beach/Bridge",
+            "name": "FN Build bridge upper to beach"
+          },
+          {
+            "ref": "The Forest Navel/FN Build bridge land to island/Bridge",
+            "name": "FN Build bridge land to island"
+          }
+          
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 1670,
+            "y": 1160,
+            "size": 60
+          }
+        ]
       }
     ]
   }

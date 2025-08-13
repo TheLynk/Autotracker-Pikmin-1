@@ -83,9 +83,67 @@
   //////  Option   //////
 
   {
-    "name": "Louie Option",
-    "type": "toggle",
-    "codes": "louie_option",
-    "img": "images/louie_option.png"
-  }
+		"name": "Logic Difficulty",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": false,
+		"codes": "logic_difficulty",
+		"stages": [
+			{
+				"name": "Logic Difficulty - None",
+				"img": "images/option/logic_difficulty_none.png",
+				"codes": "logic_none"
+			},
+			{
+				"name": "Logic Difficulty - Normal",
+				"img": "images/option/logic_difficulty_normal.png",
+				"codes": "logic_normal"
+			},
+			{
+				"name": "Logic Difficulty - Hard",
+				"img": "images/option/logic_difficulty_hard.png",
+				"codes": "logic_hard"
+			}
+		]
+	},
+  {
+		"name": "Goal",
+		"type": "progressive",
+		"allow_disabled": false,
+		"loop": false,
+		"codes": "goal",
+		"stages": [
+			{
+				"name": "Goal - 25 SP",
+				"img": "images/option/25.png",
+				"codes": "goal_25"
+			},
+			{
+				"name": "Goal - 25 SP & 1 SPO",
+				"img": "images/option/26.png",
+				"codes": "goal_26"
+			},
+			{
+				"name": "Goal - 25 SP & 2 SPO",
+				"img": "images/option/27.png",
+				"codes": "goal_27"
+			},
+      {
+				"name": "Goal - 25 SP & 3 SPO",
+				"img": "images/option/28.png",
+				"codes": "goal_28"
+			},
+      {
+				"name": "Goal - 25 SP & 4 SPO",
+				"img": "images/option/29.png",
+				"codes": "goal_29"
+			},
+      {
+				"name": "Goal - 25 SP & 5 SPO",
+				"img": "images/option/30.png",
+				"codes": "goal_30"
+			}
+		]
+	}
+  
 ]

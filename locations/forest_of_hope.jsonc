@@ -17,7 +17,7 @@
           {
             "name": "FoH 100%",
             "access_rules": [
-            "yellow_pikmin, blue_pikmin, forest_of_hope, forest_navel", "louie_option, forest_of_hope, yellow_pikmin, ^$SB"
+            "yellow_pikmin, blue_pikmin, forest_of_hope, forest_navel", "logic_hard, forest_of_hope, yellow_pikmin, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/area_100.png",
             "chest_opened_img": "images/minor checks/area_100_gray.png",
@@ -108,7 +108,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, , yellow_pikmin, ^$SB"
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, logic_normal, [logic_hard], yellow_pikmin, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/geiger_counter.png",
             "chest_opened_img": "images/minor checks/geiger_counter_gray.png",
@@ -154,7 +154,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, louie_option, ^$SB"
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, logic_hard, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/radiation_canopy.png",
             "chest_opened_img": "images/minor checks/radiation_canopy_gray.png",
@@ -177,10 +177,10 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "forest_of_hope, forest_navel, blue_pikmin", "forest_of_hope, ^$SB"
+              "forest_of_hope, forest_navel, blue_pikmin", "forest_of_hope, logic_hard, ^$SB"
             ],
-            "chest_unopened_img": "images/minor checks/sagittarius.png",
-            "chest_opened_img": "images/minor checks/sagittarius_gray.png",
+            "chest_unopened_img": "images/minor checks/sagittarius_and_libra.png",
+            "chest_opened_img": "images/minor checks/sagittarius_and_libra_gray.png",
             "item_count": 1
           }
         ],
@@ -312,7 +312,7 @@
           {
             "name": "Bridge",
             "access_rules": [
-              "forest_of_hope, forest_navel, blue_pikmin", "forest_of_hope, ^$SB"
+              "forest_of_hope, forest_navel, blue_pikmin", "forest_of_hope, logic_hard, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/bridge.png",
             "chest_opened_img": "images/minor checks/bridge_gray.png",
@@ -322,8 +322,8 @@
         "map_locations": [
           {
             "map": "forest_of_hope",
-            "x": 675,
-            "y": 1050,
+            "x": 640,
+            "y": 1110,
             "size": 20
           }
         ]
@@ -422,7 +422,7 @@
           {
             "name": "Wall",
             "access_rules": [
-              "forest_of_hope, yellow_pikmin", "forest_of_hope, louie_option, ^$SB"
+              "forest_of_hope, yellow_pikmin", "forest_of_hope, logic_normal, [logic_hard], ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/break_black_wall.png",
             "chest_opened_img": "images/minor checks/break_black_wall_gray.png",
@@ -444,7 +444,7 @@
           {
             "name": "Wall",
             "access_rules": [
-              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, louie_option, ^$SB"
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, logic_hard, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/break_white_wall.png",
             "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
@@ -466,7 +466,7 @@
           {
             "name": "Wall",
             "access_rules": [
-              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, louie_option, ^$SB"
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, yellow_pikmin, logic_hard, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/break_black_wall.png",
             "chest_opened_img": "images/minor checks/break_black_wall_gray.png",
@@ -488,7 +488,7 @@
           {
             "name": "Box",
             "access_rules": [
-              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "forest_of_hope, , yellow_pikmin, ^$SB"
+              "forest_of_hope, yellow_pikmin, forest_navel, blue_pikmin", "logic_normal, [logic_hard], forest_of_hope, yellow_pikmin, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/pushing_the_box.png",
             "chest_opened_img": "images/minor checks/pushing_the_box_gray.png",

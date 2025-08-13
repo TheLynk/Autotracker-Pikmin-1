@@ -43,5 +43,23 @@
         "final_trial"
       ]
     ]
+  },
+  "logic_difficulty": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "48,48",
+    "rows": [
+      ["logic_difficulty"]
+    ]
+  },
+  "goal": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "48,48",
+    "rows": [
+      ["goal"]
+    ]
   }
 }

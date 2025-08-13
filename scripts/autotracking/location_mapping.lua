@@ -42,6 +42,34 @@ LOCATION_MAPPING = {
 [111] = {"@The Forest of Hope/FoH Push the Box near Geiger Counter/Box"},
 
 -- The Forest Navel
+[68] = {"@The Forest Navel/Spawn/FN 100%"},
+[75] = {"@The Forest Navel/Spawn/FN Exploration"},
+
+[16] = {"@The Forest Navel/Ionium Jet 1/Ship Part"},
+[17] = {"@The Forest Navel/Analog Computer/Ship Part"},
+[18] = {"@The Forest Navel/Anti-Dioxin Filter/Ship Part"},
+[19] = {"@The Forest Navel/Automatic Gear/Ship Part"},
+[20] = {"@The Forest Navel/Gravity Jumper/Ship Part"},
+[21] = {"@The Forest Navel/Guard Satellite/Ship Part"},
+[22] = {"@The Forest Navel/Libra/Ship Part"},
+[23] = {"@The Forest Navel/Omega Stabilizer/Ship Part"},
+[24] = {"@The Forest Navel/Space Float/Ship Part"},
+
+[6] = {"@The Forest Navel/Onion/Discover the Blue Onion"},
+[96] = {"@The Forest Navel/FN Break white wall near red onion/Wall"},
+[97] = {"@The Forest Navel/FN Blast white wall near blue onion/Wall"},
+[98] = {"@The Forest Navel/FN Blast white wall between black wall and the bridge/Wall"},
+[99] = {"@The Forest Navel/FN Blast black wall near white wall/Wall"},
+[100] = {"@The Forest Navel/FN Build bridge spawn to land/Bridge"},
+[101] = {"@The Forest Navel/FN Build bridge land to beach/Bridge"},
+[102] = {"@The Forest Navel/FN Break black wall near Beady Long Legs/Wall"},
+[103] = {"@The Forest Navel/FN Blast white wall near Beady Long Legs/Wall"},
+[104] = {"@The Forest Navel/FN Build bridge beach to upper/Bridge"},
+[105] = {"@The Forest Navel/FN Build bridge upper to beach/Bridge"},
+[106] = {"@The Forest Navel/FN Break black wall near beach/Wall"},
+[107] = {"@The Forest Navel/FN Build bridge land to island/Bridge"},
+[128] = {"@The Forest Navel/FN Blast black wall near beach/Wall"},
+
 
 -- The Distant Spring
 
