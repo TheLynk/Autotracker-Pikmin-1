@@ -8,11 +8,18 @@ Download the Pikmin1ManuelTheLynk.zip file and install the pack to your PopTrack
 
 ## To-Do
 
-1. The Forest Of Hope
-2. The Forest Navel
-3. The Distant Spring
-4. The Final Trial
-5. Achievement
+- [ ] World Map
+- [x] The Crash Site [CS]
+- [x] The Forest Of Hope [FoH]
+- [x] The Forest Navel [FN]
+- [ ] The Distant Spring [DS]
+- [ ] The Final Trial [FT]
+- [ ] Achievement / Other check
+
+## Images
+<img width="255" height="230" alt="image" src="https://github.com/user-attachments/assets/27b09da3-74dd-482b-a564-3e25f9a49a2a" />
+<img width="172" height="230" alt="image" src="https://github.com/user-attachments/assets/9d1f2d9f-a472-4570-b925-3f720b969169" />
+<img width="187" height="230" alt="image" src="https://github.com/user-attachments/assets/b5e1d040-c79b-4c1b-8119-d1cde9e14ba7" />
 
 ## Known Issues
 
