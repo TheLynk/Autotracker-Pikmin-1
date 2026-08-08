@@ -18,13 +18,50 @@
   "ship_part": {
     "type": "itemgrid",
     "h_alignment": "left",
-    "margin": "0,0,0,0",
-    "item_margin": "12,0",
-    "item_size": 50,
+    "item_margin": "5,5",
+    "item_size": "50, 50",
     "rows": [
       [
         "main_engine",
-        "eternal_fuel_dynamo"
+        "positron_generator",
+        "eternal_fuel_dynamo",
+        "extraordinary_bolt",
+        "whimsical_radar"
+      ],
+      [
+        "geiger_counter",
+        "radiation_canopy",
+        "sagittarius",
+        "shock_absorber",
+        "automatic_gear"
+      ],
+      [
+        "1_ionium_jet",
+        "anti-dioxin_filter",
+        "omega_stabilizer",
+        "gravity_jumper",
+        "analog_computer"
+      ],
+      [
+        "guard_satellite",
+        "libra",
+        "repair-type_bolt",
+        "gluon_drive",
+        "zirconium_rotor"
+      ],
+      [
+        "interstellar_radio",
+        "pilot's_seat",
+        "2_ionium_jet",
+        "bowsprit",
+        "chronos_reactor"
+      ],
+      [
+        "nova_blaster",
+        "space_float",
+        "massage_machine",
+        "uv_lamp",
+        "secret_safe"
       ]
     ]
   },

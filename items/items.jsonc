@@ -24,6 +24,7 @@
   },
 
   //////  Ship Part   //////
+  //////  Rows 1  //////
 
   {
     "name": "Main Engine",
@@ -33,10 +34,221 @@
     
   },
   {
+    "name": "Positron Generator",
+    "type": "toggle",
+	"codes": "positron_generator",
+    "img": "images/minor checks/positron_generator.png"
+    
+  },
+  {
     "name": "Eternal Fuel Dynamo",
     "type": "toggle",
 	"codes": "eternal_fuel_dynamo",
     "img": "images/minor checks/eternal_fuel_dynamo.png"
+    
+  },
+  {
+    "name": "Extraordinary Bolt",
+    "type": "toggle",
+	"codes": "extraordinary_bolt",
+    "img": "images/minor checks/extraordinary_bolt.png"
+    
+  },
+  {
+    "name": "Whimsical Radar",
+    "type": "toggle",
+	"codes": "whimsical_radar",
+    "img": "images/minor checks/whimsical_radar.png"
+    
+  },
+
+  //////  Rows 2  //////
+  
+  {
+    "name": "Geiger Counter",
+    "type": "toggle",
+	"codes": "geiger_counter",
+    "img": "images/minor checks/geiger_counter.png"
+    
+  },
+  {
+    "name": "Radiation Canopy",
+    "type": "toggle",
+	"codes": "radiation_canopy",
+    "img": "images/minor checks/radiation_canopy.png"
+    
+  },
+  {
+    "name": "Sagittarius",
+    "type": "toggle",
+	"codes": "sagittarius",
+    "img": "images/minor checks/sagittarius_and_libra.png"
+    
+  },
+  {
+    "name": "Shock Absorber",
+    "type": "toggle",
+	"codes": "shock_absorber",
+    "img": "images/minor checks/shock_absorber.png"
+    
+  },
+  {
+    "name": "Automatic Gear",
+    "type": "toggle",
+	"codes": "automatic_gear",
+    "img": "images/minor checks/automatic_gear.png"
+    
+  },
+
+  //////  Rows 3  //////
+  
+  {
+    "name": "#1 Ionium Jet",
+    "type": "toggle",
+	"codes": "1_ionium_jet",
+    "img": "images/minor checks/ionium_jet_1_2.png"
+    
+  },
+  {
+    "name": "Anti-Dioxin Filter",
+    "type": "toggle",
+	"codes": "anti-dioxin_filter",
+    "img": "images/minor checks/anti-dioxin_filter.png"
+    
+  },
+  {
+    "name": "Omega Stabilizer",
+    "type": "toggle",
+	"codes": "omega_stabilizer",
+    "img": "images/minor checks/omega_stabilizer.png"
+    
+  },
+  {
+    "name": "Gravity Jumper",
+    "type": "toggle",
+	"codes": "gravity_jumper",
+    "img": "images/minor checks/gravity_jumper.png"
+    
+  },
+  {
+    "name": "Analog Computer",
+    "type": "toggle",
+	"codes": "analog_computer",
+    "img": "images/minor checks/analog_computer.png"
+    
+  },
+
+  //////  Rows 4  //////
+  
+  {
+    "name": "Guard Satellite",
+    "type": "toggle",
+	"codes": "guard_satellite",
+    "img": "images/minor checks/guard_satellite.png"
+    
+  },
+  {
+    "name": "Libra",
+    "type": "toggle",
+	"codes": "libra",
+    "img": "images/minor checks/sagittarius_and_libra.png"
+    
+  },
+  {
+    "name": "Repair-Type Bolt",
+    "type": "toggle",
+	"codes": "repair-type_bolt",
+    "img": "images/minor checks/repair-type_bolt.png"
+    
+  },
+  {
+    "name": "Gluon Drive",
+    "type": "toggle",
+	"codes": "gluon_drive",
+    "img": "images/minor checks/gluon_drive.png"
+    
+  },
+  {
+    "name": "Zirconium Rotor",
+    "type": "toggle",
+	"codes": "zirconium_rotor",
+    "img": "images/minor checks/zirconium_rotor.png"
+    
+  },
+
+  //////  Rows 5  //////
+  
+  {
+    "name": "Interstellar Radio",
+    "type": "toggle",
+	"codes": "interstellar_radio",
+    "img": "images/minor checks/interstellar_radio.png"
+    
+  },
+  {
+    "name": "Pilot's Seat",
+    "type": "toggle",
+	"codes": "pilot's_seat",
+    "img": "images/minor checks/pilots_seat.png"
+    
+  },
+  {
+    "name": "#2 Ionium Jet",
+    "type": "toggle",
+	"codes": "2_ionium_jet",
+    "img": "images/minor checks/ionium_jet_1_2.png"
+    
+  },
+  {
+    "name": "Bowsprit",
+    "type": "toggle",
+	"codes": "bowsprit",
+    "img": "images/minor checks/bowsprit.png"
+    
+  },
+  {
+    "name": "Chronos Reactor",
+    "type": "toggle",
+	"codes": "chronos_reactor",
+    "img": "images/minor checks/chronos_reactor.png"
+    
+  },
+
+  //////  Rows 6  //////
+  
+  {
+    "name": "Nova Blaster",
+    "type": "toggle",
+	"codes": "nova_blaster",
+    "img": "images/minor checks/nova_blaster.png"
+    
+  },
+  {
+    "name": "Space Float",
+    "type": "toggle",
+	"codes": "space_float",
+    "img": "images/minor checks/space_float.png"
+    
+  },
+  {
+    "name": "Massage Machine",
+    "type": "toggle",
+	"codes": "massage_machine",
+    "img": "images/minor checks/massage_machine.png"
+    
+  },
+  {
+    "name": "UV Lamp",
+    "type": "toggle",
+	"codes": "uv_lamp",
+    "img": "images/minor checks/uv_lamp.png"
+    
+  },
+  {
+    "name": "Secret Safe",
+    "type": "toggle",
+	"codes": "secret_safe",
+    "img": "images/minor checks/secret_safe.png"
     
   },
 
