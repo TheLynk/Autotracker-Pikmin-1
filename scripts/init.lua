@@ -5,6 +5,19 @@ Tracker:AddItems("items/items.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/pikmin_group_visible.json") -- état par défaut
 Tracker:AddLayouts("layouts/areas_accessible_group_visible.json")
+Tracker:AddLayouts("layouts/pikmin_location_group_visible.json")
+
+local function updatePikminLocationGroup()
+    local item = Tracker:FindObjectForCode("pikmin_location") -- vérifie le code exact dans items.json
+    if item and item.Active then
+        Tracker:AddLayouts("layouts/pikmin_location_group_visible.json")
+    else
+        Tracker:AddLayouts("layouts/pikmin_location_group_hidden.json")
+    end
+end
+
+ScriptHost:AddWatchForCode("pikmin_location_group_watch", "pikmin_location", updatePikminLocationGroup)
+updatePikminLocationGroup()
 
 local function updatePikminGroup()
     local item = Tracker:FindObjectForCode("shuffle_pikmin") -- vérifie le code exact dans items.json

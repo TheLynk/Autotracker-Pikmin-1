@@ -37,8 +37,8 @@
     "rows": [
       [
         "the_impact_site_revisit",
-        "the_the_forest_of_hope",
-        "the_the_forest_navel",
+        "the_forest_of_hope",
+        "the_forest_navel",
         "the_distant_spring",
         "the_final_trial"
       ]
@@ -60,6 +60,15 @@
     "item_size": "64,64",
     "rows": [
       ["shuffle_map"]
+    ]
+  },
+  "pikmin_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["pikmin_location"]
     ]
   },
   "wall_location": {

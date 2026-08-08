@@ -45,76 +45,10 @@
         },
         //Tab
         {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "World Map",
-              "v_alignment": "stretch",
-              "h_alignment": "stretch",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "world_map"
-                ]
-              }
-            },
-            {
-              "title": "The Impact Site [TIS]",
-              "v_alignment": "stretch",
-              "h_alignment": "stretch",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "the_impact_site"
-                ]
-              }
-            },
-            {
-              "title": "The Forest of Hope [TFoH]",
-              "v_alignment": "stretch",
-              "h_alignment": "stretch",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "the_forest_of_hope"
-                ]
-              }
-            },
-            {
-              "title": "The Forest Navel [TFN]",
-              "v_alignment": "stretch",
-              "h_alignment": "stretch",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "the_forest_navel"
-                ]
-              }
-            },
-            {
-              "title": "The Distant Spring [TDS]",
-              "v_alignment": "stretch",
-              "h_alignment": "stretch",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "the_distant_spring"
-                ]
-              }
-            },
-            {
-              "title": "The Final Trial [TFT]",
-              "v_alignment": "stretch",
-              "h_alignment": "stretch",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "the_final_trial"
-                ]
-              }
+              "type": "layout",
+              "key": "pikmin_location_group",
+              "dock": "fill"
             }
-          ]
-        }
       ]
     }
   }

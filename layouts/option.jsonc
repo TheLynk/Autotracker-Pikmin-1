@@ -36,6 +36,10 @@
                 "content": [
                   {
                     "type": "layout",
+                    "key": "pikmin_location"
+                  },
+                  {
+                    "type": "layout",
                     "key": "wall_location"
                   },
                   {

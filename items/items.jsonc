@@ -92,6 +92,12 @@
   /////  Location  /////
 
   {
+	"name": "Pikmin Location",
+	"type": "toggle",
+	"codes": "pikmin_location",
+	"img": "images/option/pikmin_location.png"
+  },
+  {
 	"name": "Wall Location",
 	"type": "toggle",
 	"codes": "wall_location",
