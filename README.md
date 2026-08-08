@@ -1,10 +1,10 @@
 # Pikmin 1
 
-This is the PopTracker pack for Pikmin Manuel TheLynk Archipelago randomizer. (https://github.com/TheLynk/Manual_Pikmin/tree/main)
+This is the PopTracker pack for Pikmin Manuel TheLynk Archipelago randomizer. ([https://github.com/TheLynk/Manual_Pikmin/tree/main](https://github.com/TheLynk/Archipelago/tree/PikminV2))
 
 ## Installation
 
-Download the Pikmin1ManuelTheLynk.zip file and install the pack to your PopTracker. On the PopTracker itself, navigate to the folder in the top left and select version of this tracker that you installed.
+Download the Pikmin1.zip file and install the pack to your PopTracker. On the PopTracker itself, navigate to the folder in the top left and select version of this tracker that you installed.
 
 ## To-Do
 
