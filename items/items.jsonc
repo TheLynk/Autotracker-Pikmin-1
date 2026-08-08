@@ -1,42 +1,15 @@
 [
   //more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 
-  //////   Areas Accesible  //////
-
-  {
-    "name": "Crash Site revisit",
-    "type": "toggle",
-    "codes": "crash_site_revisit",
-    "img": "images/maps/crash_site.png"
-  },
-  {
-    "name": "The Forest Of Hope",
-    "type": "toggle",
-    "codes": "forest_of_hope",
-    "img": "images/maps/forest_of_hope.png"
-  },
-  {
-    "name": "The Forest Navel",
-    "type": "toggle",
-    "codes": "forest_navel",
-    "img": "images/maps/forest_navel.png"
-  },
-  {
-    "name": "The Distant Spring",
-    "type": "toggle",
-    "codes": "distant_spring",
-    "img": "images/maps/distant_spring.png"
-  },
-  {
-    "name": "The Final Trial",
-    "type": "toggle",
-    "codes": "final_trial",
-    "img": "images/maps/final_trial.png"
-  },
-
-
+  //////   Progressif  //////
   //////  Pikmin   //////
 
+  {
+    "name": "Red Pikmin",
+    "type": "toggle",
+    "codes": "red_pikmin",
+    "img": "images/pikmin/red_pikmin.png"
+  },
   {
     "name": "Yellow Pikmin",
     "type": "toggle",
@@ -50,100 +23,159 @@
     "img": "images/pikmin/blue_pikmin.png"
   },
 
-  //////  Items   //////
+  //////  Ship Part   //////
 
   {
-    "name": "Ship Part",
-    "type": "consumable",
-    "initial_quantity": 0,
-    "max_quantity": 25,
-    "overlay_font_size": 18,
-    "img": "images/items/ship_part.png",
-    "codes": "ship_part"
+    "name": "Main Engine",
+    "type": "toggle",
+	"codes": "main_engine",
+    "img": "images/minor checks/main_engine.png"
+    
   },
   {
-    "name": "Ship Part Optional",
-    "type": "consumable",
-    "initial_quantity": 0,
-    "max_quantity": 5,
-    "overlay_font_size": 18,
-    "img": "images/items/ship_part.png",
-    "codes": "ship_part_optional"
+    "name": "Eternal Fuel Dynamo",
+    "type": "toggle",
+	"codes": "eternal_fuel_dynamo",
+    "img": "images/minor checks/eternal_fuel_dynamo.png"
+    
+  },
+
+  //////   Areas Accesible  //////
+
+  {
+    "name": "The Impact Site revisit",
+    "type": "toggle",
+    "codes": "the_impact_site_revisit",
+    "img": "images/maps/the_impact_site.png"
   },
   {
-    "name": "Pikpik Carrot",
-    "type": "consumable",
-    "initial_quantity": 0,
-    "max_quantity": 88,
-    "overlay_font_size": 18,
-    "img": "images/items/pikpik_carrot.png",
-    "codes": "pikpik_carrot"
+    "name": "The Forest Of Hope",
+    "type": "toggle",
+    "codes": "the_forest_of_hope",
+    "img": "images/maps/the_forest_of_hope.png"
+  },
+  {
+    "name": "The Forest Navel",
+    "type": "toggle",
+    "codes": "the_forest_navel",
+    "img": "images/maps/the_forest_navel.png"
+  },
+  {
+    "name": "The Distant Spring",
+    "type": "toggle",
+    "codes": "the_distant_spring",
+    "img": "images/maps/the_distant_spring.png"
+  },
+  {
+    "name": "The Final Trial",
+    "type": "toggle",
+    "codes": "the_final_trial",
+    "img": "images/maps/the_final_trial.png"
   },
 
   //////  Option   //////
+  //////  Shuffle  //////
 
   {
-		"name": "Logic Difficulty",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": false,
-		"codes": "logic_difficulty",
-		"stages": [
-			{
-				"name": "Logic Difficulty - None",
-				"img": "images/option/logic_difficulty_none.png",
-				"codes": "logic_none"
-			},
-			{
-				"name": "Logic Difficulty - Normal",
-				"img": "images/option/logic_difficulty_normal.png",
-				"codes": "logic_normal"
-			},
-			{
-				"name": "Logic Difficulty - Hard",
-				"img": "images/option/logic_difficulty_hard.png",
-				"codes": "logic_hard"
-			}
-		]
-	},
+	"name": "Shuffle Pikmin",
+	"type": "toggle",
+	"codes": "shuffle_pikmin",
+	"img": "images/pikmin/red_pikmin.png"
+  },
   {
-		"name": "Goal",
-		"type": "progressive",
-		"allow_disabled": false,
-		"loop": false,
-		"codes": "goal",
-		"stages": [
-			{
-				"name": "Goal - 25 SP",
-				"img": "images/option/25.png",
-				"codes": "goal_25"
-			},
-			{
-				"name": "Goal - 25 SP & 1 SPO",
-				"img": "images/option/26.png",
-				"codes": "goal_26"
-			},
-			{
-				"name": "Goal - 25 SP & 2 SPO",
-				"img": "images/option/27.png",
-				"codes": "goal_27"
-			},
-      {
-				"name": "Goal - 25 SP & 3 SPO",
-				"img": "images/option/28.png",
-				"codes": "goal_28"
-			},
-      {
-				"name": "Goal - 25 SP & 4 SPO",
-				"img": "images/option/29.png",
-				"codes": "goal_29"
-			},
-      {
-				"name": "Goal - 25 SP & 5 SPO",
-				"img": "images/option/30.png",
-				"codes": "goal_30"
-			}
-		]
-	}
+	"name": "Shuffle Map",
+	"type": "toggle",
+	"codes": "shuffle_map",
+	"img": "images/maps/world_map.png"
+  },
   
+  /////  Location  /////
+
+  {
+	"name": "Wall Location",
+	"type": "toggle",
+	"codes": "wall_location",
+	"img": "images/minor checks/break_white_wall.png"
+  },
+  {
+	"name": "Box Location",
+	"type": "progressive",
+	"codes": "box_location",
+	"img": "images/minor checks/pushing_the_box.png"
+  },
+  {
+	"name": "Bridge Location",
+	"type": "progressive",
+	"codes": "bridge_location",
+	"img": "images/minor checks/bridge.png"
+  },
+
+  ///// Logic  /////
+
+  {
+	"name": "Logic Difficulty",
+	"type": "progressive",
+	"allow_disabled": false,
+	"loop": false,
+	"codes": "logic_difficulty",
+	"stages": [
+		{
+			"name": "Logic Difficulty - None",
+			"img": "images/option/logic_difficulty_none.png",
+			"codes": "logic_none"
+		},
+		{
+			"name": "Logic Difficulty - Normal",
+			"img": "images/option/logic_difficulty_normal.png",
+			"codes": "logic_normal"
+		},
+		{
+			"name": "Logic Difficulty - Hard",
+			"img": "images/option/logic_difficulty_hard.png",
+			"codes": "logic_hard"
+		}
+	]
+  },
+
+  ///// Goal  /////
+
+  {
+	"name": "Goal",
+	"type": "progressive",
+	"allow_disabled": false,
+	"loop": false,
+	"codes": "goal",
+	"stages": [
+		{
+			"name": "Goal - 25 SP",
+			"img": "images/option/25.png",
+			"codes": "goal_25"
+		},
+		{
+			"name": "Goal - 25 SP & 1 SPO",
+			"img": "images/option/26.png",
+			"codes": "goal_26"
+		},
+		{
+			"name": "Goal - 25 SP & 2 SPO",
+			"img": "images/option/27.png",
+			"codes": "goal_27"
+		},
+        {
+			"name": "Goal - 25 SP & 3 SPO",
+			"img": "images/option/28.png",
+			"codes": "goal_28"
+		},
+        {
+			"name": "Goal - 25 SP & 4 SPO",
+			"img": "images/option/29.png",
+			"codes": "goal_29"
+		},
+        {
+			"name": "Goal - 25 SP & 5 SPO",
+			"img": "images/option/30.png",
+			"codes": "goal_30"
+		}
+	]
+  }
 ]

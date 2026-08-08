@@ -1,0 +1,11 @@
+{
+    "areas_accessible_group": {
+        "type": "group",
+        "header": "Map Unlock",
+        "dock": "top",
+        "content": {
+        "type": "layout",
+        "key": "areas_accessible"
+        }
+    }
+}

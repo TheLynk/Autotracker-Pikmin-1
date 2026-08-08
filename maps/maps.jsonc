@@ -7,33 +7,33 @@
     "img": "images/maps/world_map.png"
   },
   {
-    "name": "crash_site",
+    "name": "the_impact_site",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/crash_site.png"
+    "img": "images/maps/the_impact_site.png"
   },
   {
-    "name": "forest_of_hope",
+    "name": "the_forest_of_hope",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/forest_of_hope.png"
+    "img": "images/maps/the_forest_of_hope.png"
   },
   {
-    "name": "forest_navel",
+    "name": "the_forest_navel",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/forest_navel.png"
+    "img": "images/maps/the_forest_navel.png"
   },
   {
-    "name": "distant_spring",
+    "name": "the_distant_spring",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/distant_spring.png"
+    "img": "images/maps/the_distant_spring.png"
   },
   {
-    "name": "final_trial",
+    "name": "the_final_trial",
     "location_size": 48,
     "location_border_thickness": 4,
-    "img": "images/maps/final_trial.png"
+    "img": "images/maps/the_final_trial.png"
   }
 ]

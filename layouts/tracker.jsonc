@@ -15,30 +15,31 @@
           "content": [
             {
               "type": "group",
-              "header": "Pikmin",
+              "header": "Progressif",
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "Pikmin"
+                "key": "Progressif"
               }
             },
             {
-              "type": "group",
-              "header": "Items",
-              "dock": "top",
-              "content": {
-                "type": "layout",
-                "key": "Items"
-              }
+              "type": "layout",
+              "key": "pikmin_group",
+              "dock": "top"
             },
             {
               "type": "group",
-              "header": "Areas Accessible",
+              "header": "Ship Part",
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "areas_accessible"
+                "key": "ship_part"
               }
+            },
+            {
+              "type": "layout",
+              "key": "areas_accessible_group",
+              "dock": "top"
             }
           ]
         },
@@ -58,57 +59,57 @@
               }
             },
             {
-              "title": "The Crash Site [CS]",
+              "title": "The Impact Site [TIS]",
               "v_alignment": "stretch",
               "h_alignment": "stretch",
               "content": {
                 "type": "map",
                 "maps": [
-                  "crash_site"
+                  "the_impact_site"
                 ]
               }
             },
             {
-              "title": "The Forest of Hope [FoH]",
+              "title": "The Forest of Hope [TFoH]",
               "v_alignment": "stretch",
               "h_alignment": "stretch",
               "content": {
                 "type": "map",
                 "maps": [
-                  "forest_of_hope"
+                  "the_forest_of_hope"
                 ]
               }
             },
             {
-              "title": "The Forest Navel [FN]",
+              "title": "The Forest Navel [TFN]",
               "v_alignment": "stretch",
               "h_alignment": "stretch",
               "content": {
                 "type": "map",
                 "maps": [
-                  "forest_navel"
+                  "the_forest_navel"
                 ]
               }
             },
             {
-              "title": "The Distant Spring [DS]",
+              "title": "The Distant Spring [TDS]",
               "v_alignment": "stretch",
               "h_alignment": "stretch",
               "content": {
                 "type": "map",
                 "maps": [
-                  "distant_spring"
+                  "the_distant_spring"
                 ]
               }
             },
             {
-              "title": "The Final Trial [FT]",
+              "title": "The Final Trial [TFT]",
               "v_alignment": "stretch",
               "h_alignment": "stretch",
               "content": {
                 "type": "map",
                 "maps": [
-                  "final_trial"
+                  "the_final_trial"
                 ]
               }
             }

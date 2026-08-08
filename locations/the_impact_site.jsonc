@@ -1,18 +1,20 @@
 [
   {
-    "name": "Crash Site",
+    "name": "The Impact Site",
     "children": [
       {
         "name": "Spawn",
         "sections": [
           {
             "name": "Crash on PNF-404",
+            "visibility_rules": [ "off" ],
             "chest_unopened_img": "images/minor checks/ss_dolphin_crash.png",
             "chest_opened_img": "images/minor checks/ss_dolphin_crash_gray.png",
             "item_count": 1
           },
           {
             "name": "Tutorial Complete! (Sunset)",
+            "visibility_rules": [ "off" ],
             "chest_unopened_img": "images/minor checks/night.png",
             "chest_opened_img": "images/minor checks/night_gray.png",
             "item_count": 1
@@ -20,8 +22,9 @@
           {
             "name": "Re Explore",
             "access_rules": [
-              "crash_site_revisit"
+              "the_impact_site_revisit"
             ],
+            "visibility_rules": [ "off" ],
             "chest_unopened_img": "images/minor checks/visit.png",
             "chest_opened_img": "images/minor checks/visit_gray.png",
             "item_count": 1
@@ -29,8 +32,9 @@
           {
             "name": "CS 100%",
             "access_rules": [
-              "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"
+              "yellow_pikmin, blue_pikmin, the_impact_site_revisit, the_forest_of_hope, the_forest_navel"
             ],
+            "visibility_rules": [ "off" ],
             "chest_unopened_img": "images/minor checks/area_100.png",
             "chest_opened_img": "images/minor checks/area_100_gray.png",
             "item_count": 1
@@ -38,7 +42,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 560,
             "y": 500,
             "size": 20,
@@ -51,6 +55,7 @@
         "sections": [
           {
             "name": "Discover the Red Onion",
+            "visibility_rules": [ "off" ],
             "chest_unopened_img": "images/minor checks/red_onion.png",
             "chest_opened_img": "images/minor checks/red_onion_gray.png",
             "item_count": 1
@@ -58,7 +63,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 415,
             "y": 350,
             "size": 14
@@ -70,6 +75,7 @@
         "sections": [
           {
             "name": "Box",
+            "visibility_rules": [ "box_location" ],
             "chest_unopened_img": "images/minor checks/pushing_the_box.png",
             "chest_opened_img": "images/minor checks/pushing_the_box_gray.png",
             "item_count": 1
@@ -77,7 +83,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 450,
             "y": 300,
             "size": 14
@@ -96,7 +102,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 515,
             "y": 225,
             "size": 20,
@@ -110,7 +116,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "yellow_pikmin, blue_pikmin, crash_site_revisit, forest_of_hope, forest_navel"//, "^$skip_box_FoH"
+              "yellow_pikmin, blue_pikmin, the_impact_site_revisit, the_forest_of_hope, the_forest_navel"//, "^$skip_box_FoH"
             ],
             "chest_unopened_img": "images/minor checks/positron_generator.png",
             "chest_opened_img": "images/minor checks/positron_generator_gray.png",
@@ -119,7 +125,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 150,
             "y": 300,
             "size": 20,
@@ -133,8 +139,9 @@
           {
             "name": "Wall",
             "access_rules": [
-              "yellow_pikmin, crash_site_revisit, forest_of_hope"
+              "yellow_pikmin, the_impact_site_revisit, the_forest_of_hope"
             ],
+            "visibility_rules": [ "wall_location" ],
             "chest_unopened_img": "images/minor checks/blast_white_wall.png",
             "chest_opened_img": "images/minor checks/blast_white_wall_gray.png",
             "item_count": 1
@@ -142,7 +149,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 250,
             "y": 230,
             "size": 14
@@ -155,8 +162,9 @@
           {
             "name": "Wall",
             "access_rules": [
-              "yellow_pikmin, crash_site_revisit, forest_of_hope"
+              "yellow_pikmin, the_impact_site_revisit, the_forest_of_hope"
             ],
+            "visibility_rules": [ "wall_location" ],
             "chest_unopened_img": "images/minor checks/break_white_wall.png",
             "chest_opened_img": "images/minor checks/break_white_wall_gray.png",
             "item_count": 1
@@ -164,7 +172,7 @@
         ],
         "map_locations": [
           {
-            "map": "crash_site",
+            "map": "the_impact_site",
             "x": 300,
             "y": 340,
             "size": 14

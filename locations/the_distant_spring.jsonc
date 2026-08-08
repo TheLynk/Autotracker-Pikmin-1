@@ -1,0 +1,63 @@
+[ 
+    {
+    "name": "The Distant Spring",
+    "children": [
+      {
+        "name": "Spawn",
+        "sections": [
+          {
+            "name": "DS Exploration",
+            "access_rules": [
+              "distant_spring"
+            ],
+            "chest_unopened_img": "images/minor checks/visit.png",
+            "chest_opened_img": "images/minor checks/visit_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "DS 100%",
+            "access_rules": [
+              "yellow_pikmin, blue_pikmin, the_forest_of_hope, the_forest_navel, distant_spring"
+            ],
+            "chest_unopened_img": "images/minor checks/area_100.png",
+            "chest_opened_img": "images/minor checks/area_100_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "distant_spring",
+            "x": 630,
+            "y": 880,
+            "size": 30,
+            "shape": "trapezoid"
+          }
+        ]
+      },
+      {
+        "name": "Ionium Jet 2",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_forest_navel, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/analog_computer.png",
+            "chest_opened_img": "images/minor checks/analog_computer_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_forest_navel",
+            "x": 515,
+            "y": 160,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      }
+    ]
+    }
+
+]

@@ -6,19 +6,19 @@
         "name": "Crash Site | Spawn",
         "sections": [
           {
-            "ref": "Crash Site/Spawn/Crash on PNF-404"
+            "ref": "The Impact Site/Spawn/Crash on PNF-404"
           },
           {
             "ref": "Re Explore"
           },
           {
-            "ref": "Crash Site/Spawn/Tutorial Complete! (Sunset)"
+            "ref": "The Impact Site/Spawn/Tutorial Complete! (Sunset)"
           },
           {
-            "ref": "Crash Site/Spawn/Re Explore"
+            "ref": "The Impact Site/Spawn/Re Explore"
           },
           {
-            "ref": "Crash Site/Spawn/CS 100%",
+            "ref": "The Impact Site/Spawn/CS 100%",
             "name": "100%"
           }
         ],
@@ -32,14 +32,14 @@
         ]
       },
       {
-        "name": "Crash Site | Ship Part",
+        "name": "The Impact Site | Ship Part",
         "sections": [
           {
-            "ref": "Crash Site/Main Engine/Ship Part",
+            "ref": "The Impact Site/Main Engine/Ship Part",
             "name": "Main Engine"
           },
           {
-            "ref": "Crash Site/Positron Generator/Ship Part",
+            "ref": "The Impact Site/Positron Generator/Ship Part",
             "name": "Positron Generator"
           }
         ],
@@ -53,20 +53,20 @@
         ]
       },
       {
-        "name": "Crash Site | Other",
+        "name": "The Impact Site | Other",
         "sections": [
           {
-            "ref": "Crash Site/Onion/Discover the Red Onion"
+            "ref": "The Impact Site/Onion/Discover the Red Onion"
           },
           {
-            "ref": "Crash Site/Box/Push the Box"
+            "ref": "The Impact Site/Push the Box/Box"
           },
           {
-            "ref": "Crash Site/Blast White Wall/Wall",
+            "ref": "The Impact Site/Blast White Wall/Wall",
             "name": "Blast White Wall"
           },
           {
-            "ref": "Crash Site/Break White Wall/Wall",
+            "ref": "The Impact Site/Break White Wall/Wall",
             "name": "Break White Wall"
           }
         ],

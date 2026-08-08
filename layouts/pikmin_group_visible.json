@@ -1,0 +1,11 @@
+{
+  "pikmin_group": {
+    "type": "group",
+    "header": "Pikmin",
+    "dock": "top",
+    "content": {
+      "type": "layout",
+      "key": "Pikmin"
+    }
+  }
+}

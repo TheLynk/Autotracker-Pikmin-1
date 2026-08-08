@@ -16,23 +16,57 @@
               "content": [
                 {
                 "type": "group",
+                "header": "Shuffle",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "shuffle_pikmin"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "shuffle_map"
+                  }
+                ]
+                },
+                {
+                "type": "group",
+                "header": "Locations",
+                "dock": "left",
+                "content": [
+                  {
+                    "type": "layout",
+                    "key": "wall_location"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "box_location"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "bridge_location"
+                  }
+                ]
+                },
+                {
+                "type": "group",
                 "header": "Logic",
                 "dock": "left",
                 "content": {
                   "type": "layout",
                   "key": "logic_difficulty"
-                }
-                },
-                {
+                  }
+                }/*,
+                /*{
                 "type": "group",
                 "header": "Goal",
                 "dock": "left",
                 "content": {
                   "type": "layout",
                   "key": "goal"
-                }
-                }
-            ]
+                  }
+                }*/
+              ]
           }
         }
       ]

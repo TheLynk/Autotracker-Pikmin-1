@@ -9,12 +9,13 @@
     "item_size": 50,
     "rows": [
       [
+        "red_pikmin",
         "yellow_pikmin",
         "blue_pikmin"
       ]
     ]
   },
-  "Items": {
+  "ship_part": {
     "type": "itemgrid",
     "h_alignment": "left",
     "margin": "0,0,0,0",
@@ -22,9 +23,8 @@
     "item_size": 50,
     "rows": [
       [
-        "ship_part",
-        "ship_part_optional",
-        "pikpik_carrot"
+        "main_engine",
+        "eternal_fuel_dynamo"
       ]
     ]
   },
@@ -36,12 +36,57 @@
     "item_size": 50,
     "rows": [
       [
-        "crash_site_revisit",
-        "forest_of_hope",
-        "forest_navel",
-        "distant_spring",
-        "final_trial"
+        "the_impact_site_revisit",
+        "the_the_forest_of_hope",
+        "the_the_forest_navel",
+        "the_distant_spring",
+        "the_final_trial"
       ]
+    ]
+  },
+  "shuffle_pikmin": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["shuffle_pikmin"]
+    ]
+  },
+  "shuffle_map": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["shuffle_map"]
+    ]
+  },
+  "wall_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["wall_location"]
+    ]
+  },
+  "box_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["box_location"]
+    ]
+  },
+  "bridge_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["bridge_location"]
     ]
   },
   "logic_difficulty": {
