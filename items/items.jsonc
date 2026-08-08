@@ -61,9 +61,6 @@
     "img": "images/minor checks/whimsical_radar.png"
     
   },
-
-  //////  Rows 2  //////
-  
   {
     "name": "Geiger Counter",
     "type": "toggle",
@@ -71,6 +68,9 @@
     "img": "images/minor checks/geiger_counter.png"
     
   },
+
+  //////  Rows 2  //////
+
   {
     "name": "Radiation Canopy",
     "type": "toggle",
@@ -98,10 +98,7 @@
 	"codes": "automatic_gear",
     "img": "images/minor checks/automatic_gear.png"
     
-  },
-
-  //////  Rows 3  //////
-  
+  },  
   {
     "name": "#1 Ionium Jet",
     "type": "toggle",
@@ -116,6 +113,9 @@
     "img": "images/minor checks/anti-dioxin_filter.png"
     
   },
+
+  //////  Rows 3  //////
+
   {
     "name": "Omega Stabilizer",
     "type": "toggle",
@@ -136,10 +136,7 @@
 	"codes": "analog_computer",
     "img": "images/minor checks/analog_computer.png"
     
-  },
-
-  //////  Rows 4  //////
-  
+  },  
   {
     "name": "Guard Satellite",
     "type": "toggle",
@@ -161,6 +158,9 @@
     "img": "images/minor checks/repair-type_bolt.png"
     
   },
+
+  //////  Rows 4  //////
+
   {
     "name": "Gluon Drive",
     "type": "toggle",
@@ -174,10 +174,7 @@
 	"codes": "zirconium_rotor",
     "img": "images/minor checks/zirconium_rotor.png"
     
-  },
-
-  //////  Rows 5  //////
-  
+  },  
   {
     "name": "Interstellar Radio",
     "type": "toggle",
@@ -198,7 +195,7 @@
 	"codes": "2_ionium_jet",
     "img": "images/minor checks/ionium_jet_1_2.png"
     
-  },
+  },  
   {
     "name": "Bowsprit",
     "type": "toggle",
@@ -206,11 +203,34 @@
     "img": "images/minor checks/bowsprit.png"
     
   },
+
+  //////  Rows 5  //////
+
   {
     "name": "Chronos Reactor",
     "type": "toggle",
 	"codes": "chronos_reactor",
     "img": "images/minor checks/chronos_reactor.png"
+    
+  },
+  {
+    "name": "Ship Part Required",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 25,
+    "overlay_font_size": 18,
+    "img": "images/items/ship_part.png",
+    "codes": "ship_part_required"
+    
+  },
+  {
+    "name": "Ship Part Total",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 30,
+    "overlay_font_size": 18,
+    "img": "images/items/ship_part.png",
+    "codes": "ship_part_total"
     
   },
 
@@ -249,6 +269,16 @@
     "type": "toggle",
 	"codes": "secret_safe",
     "img": "images/minor checks/secret_safe.png"
+    
+  },
+  {
+    "name": "Ship Part Optional",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "max_quantity": 5,
+    "overlay_font_size": 18,
+    "img": "images/items/ship_part.png",
+    "codes": "ship_part_optional"
     
   },
 

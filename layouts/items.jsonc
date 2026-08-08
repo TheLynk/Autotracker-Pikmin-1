@@ -54,7 +54,12 @@
         "bowsprit"
       ],
       [
-        "chronos_reactor"
+        "chronos_reactor",
+        "",
+        "",
+        "",
+        "ship_part_required",
+        "ship_part_total"
       ]
     ]
   },
@@ -69,7 +74,8 @@
         "space_float",
         "massage_machine",
         "uv_lamp",
-        "secret_safe"
+        "secret_safe",
+        "ship_part_optional"
       ]
     ]
   },
