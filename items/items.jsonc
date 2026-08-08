@@ -23,7 +23,7 @@
     "img": "images/pikmin/blue_pikmin.png"
   },
 
-  //////  Ship Part   //////
+  //////  Ship Part Required  //////
   //////  Rows 1  //////
 
   {
@@ -214,7 +214,7 @@
     
   },
 
-  //////  Rows 6  //////
+  //////  Ship Part Optional  //////
   
   {
     "name": "Nova Blaster",

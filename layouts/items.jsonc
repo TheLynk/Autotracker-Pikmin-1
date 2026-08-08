@@ -15,7 +15,7 @@
       ]
     ]
   },
-  "ship_part": {
+  "ship_part_required": {
     "type": "itemgrid",
     "h_alignment": "left",
     "item_margin": "5,5",
@@ -26,36 +26,44 @@
         "positron_generator",
         "eternal_fuel_dynamo",
         "extraordinary_bolt",
-        "whimsical_radar"
+        "whimsical_radar",
+        "geiger_counter"
       ],
       [
-        "geiger_counter",
         "radiation_canopy",
         "sagittarius",
         "shock_absorber",
-        "automatic_gear"
+        "automatic_gear",
+        "1_ionium_jet",
+        "anti-dioxin_filter"
       ],
       [
-        "1_ionium_jet",
-        "anti-dioxin_filter",
         "omega_stabilizer",
         "gravity_jumper",
-        "analog_computer"
-      ],
-      [
+        "analog_computer",
         "guard_satellite",
         "libra",
-        "repair-type_bolt",
-        "gluon_drive",
-        "zirconium_rotor"
+        "repair-type_bolt"
       ],
       [
+        "gluon_drive",
+        "zirconium_rotor",
         "interstellar_radio",
         "pilot's_seat",
         "2_ionium_jet",
-        "bowsprit",
-        "chronos_reactor"
+        "bowsprit"
       ],
+      [
+        "chronos_reactor"
+      ]
+    ]
+  },
+  "ship_part_optional": {
+    "type": "itemgrid",
+    "h_alignment": "left",
+    "item_margin": "5,5",
+    "item_size": "50, 50",
+    "rows": [
       [
         "nova_blaster",
         "space_float",

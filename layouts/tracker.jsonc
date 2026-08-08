@@ -29,11 +29,20 @@
             },
             {
               "type": "group",
-              "header": "Ship Part",
+              "header": "Ship Part Required",
               "dock": "top",
               "content": {
                 "type": "layout",
-                "key": "ship_part"
+                "key": "ship_part_required"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Ship Part Optional",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "ship_part_optional"
               }
             },
             {
