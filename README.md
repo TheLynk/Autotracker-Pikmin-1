@@ -9,11 +9,11 @@ Download the Pikmin1.zip file and install the pack to your PopTracker. On the Po
 ## To-Do
 
 - [ ] World Map
-- [x] The Crash Site [CS]
-- [x] The Forest Of Hope [FoH]
-- [x] The Forest Navel [FN]
-- [ ] The Distant Spring [DS]
-- [ ] The Final Trial [FT]
+- [x] The Impact Site [TIS]
+- [x] The Forest Of Hope [TFoH]
+- [x] The Forest Navel [TFN]
+- [ ] The Distant Spring [TDS]
+- [ ] The Final Trial [TFT]
 - [ ] Achievement / Other check
 
 ## Images
