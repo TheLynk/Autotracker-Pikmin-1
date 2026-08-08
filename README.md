@@ -1,4 +1,4 @@
-# Pikmin Manuel TheLynk
+# Pikmin 1
 
 This is the PopTracker pack for Pikmin Manuel TheLynk Archipelago randomizer. (https://github.com/TheLynk/Manual_Pikmin/tree/main)
 
