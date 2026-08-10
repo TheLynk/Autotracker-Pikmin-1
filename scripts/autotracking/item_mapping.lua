@@ -1,5 +1,5 @@
 ITEM_MAPPING = {
-
+    
     -- /////  Ship Part Required  //////
     -- /////  The Impact Site  //////
 
@@ -28,6 +28,7 @@ ITEM_MAPPING = {
     [71407] = { {"guard_satellite"}, {"ship_part_required"}, {"ship_part_total"} },
 
     -- ////// The Distant Spring  //////
+
     [71400] = { {"bowsprit"}, {"ship_part_required"}, {"ship_part_total"} },
     [71401] = { {"gluon_drive"}, {"ship_part_required"}, {"ship_part_total"} },
     [71406] = { {"interstellar_radio"}, {"ship_part_required"}, {"ship_part_total"} },

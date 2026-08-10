@@ -21,7 +21,14 @@ LOCATION_MAPPING = {
 
 -- The Forest Navel
 [71428] = { {"@The Forest Navel/Analog Computer/Ship Part"} },
-
+[71420] = { {"@The Forest Navel/Automatic Gear/Ship Part"} },
+[71414] = { {"@The Forest Navel/#1 Ionium Jet/Ship Part"} },
+[71402] = { {"@The Forest Navel/Anti-Dioxin Filter/Ship Part"} },
+[71413] = { {"@The Forest Navel/Omega Stabilizer/Ship Part"} },
+[71417] = { {"@The Forest Navel/Gravity Jumper/Ship Part"} },
+[71412] = { {"@The Forest Navel/Libra/Ship Part"} },
+[71407] = { {"@The Forest Navel/Guard Satellite/Ship Part"} },
+[71424] = { {"@The Forest Navel/Space Float/Ship Part"} },
 
 -- The Distant Spring
 
