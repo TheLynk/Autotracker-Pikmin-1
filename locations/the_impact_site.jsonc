@@ -116,7 +116,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "yellow_pikmin, blue_pikmin, the_impact_site_revisit, the_forest_of_hope, the_forest_navel"//, "^$skip_box_FoH"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/positron_generator.png",
             "chest_opened_img": "images/minor checks/positron_generator_gray.png",

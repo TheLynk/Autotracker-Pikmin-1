@@ -42,7 +42,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "yellow_pikmin, blue_pikmin, the_forest_of_hope, the_forest_navel, the_final_trial"
+              "ship_part_total:29"
             ],
             "chest_unopened_img": "images/minor checks/secret_safe.png",
             "chest_opened_img": "images/minor checks/secret_safe.png",

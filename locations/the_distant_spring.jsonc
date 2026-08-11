@@ -42,7 +42,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, blue_pikmin, the_distant_spring"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/ionium_jet_1_2.png",
             "chest_opened_img": "images/minor checks/ionium_jet_1_2_gray.png",
@@ -65,7 +65,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, yellow_pikmin, the_forest_navel, blue_pikmin, the_distant_spring"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/chronos_reactor.png",
             "chest_opened_img": "images/minor checks/chronos_reactor_gray.png",
@@ -88,7 +88,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/pilots_seat.png",
             "chest_opened_img": "images/minor checks/pilots_seat_gray.png",
@@ -111,7 +111,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring, the_forest_naval, blue_pikmin"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/zirconium_rotor.png",
             "chest_opened_img": "images/minor checks/zirconium_rotor_gray.png",
@@ -134,7 +134,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring, the_forest_naval, blue_pikmin"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/gluon_drive.png",
             "chest_opened_img": "images/minor checks/gluon_drive_gray.png",
@@ -157,7 +157,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/bowsprit.png",
             "chest_opened_img": "images/minor checks/bowsprit_gray.png",
@@ -180,7 +180,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring, the_forest_of_hope, yellow_pikmin"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/uv_lamp.png",
             "chest_opened_img": "images/minor checks/uv_lamp_gray.png",
@@ -203,7 +203,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring, the_forest_naval, blue_pikmin"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/repair-type_bolt.png",
             "chest_opened_img": "images/minor checks/repair-type_bolt_gray.png",
@@ -226,7 +226,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring, the_forest_naval, blue_pikmin"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/massage_machine.png",
             "chest_opened_img": "images/minor checks/massage_machine_gray.png",
@@ -249,7 +249,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_distant_spring, the_forest_naval, blue_pikmin"
+              "ship_part_total:12"
             ],
             "chest_unopened_img": "images/minor checks/interstellar_radio.png",
             "chest_opened_img": "images/minor checks/interstellar_radio_gray.png",

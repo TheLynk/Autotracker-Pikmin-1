@@ -65,7 +65,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope"
+              "ship_part_total:1"
             ],
             "chest_unopened_img": "images/minor checks/eternal_fuel_dynamo.png",
             "chest_opened_img": "images/minor checks/eternal_fuel_dynamo_gray.png",
@@ -88,7 +88,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, yellow_pikmin"
+              "ship_part_total:1"
             ],
             "chest_unopened_img": "images/minor checks/extraordinary_bolt.png",
             "chest_opened_img": "images/minor checks/extraordinary_bolt_gray.png",
@@ -111,7 +111,8 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, yellow_pikmin, the_forest_navel, blue_pikmin", "the_forest_of_hope, logic_normal, [logic_hard], yellow_pikmin, ^$SB"
+              "ship_part_total:5", 
+              "ship_part_total:1, logic_normal, [logic_hard], ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/geiger_counter.png",
             "chest_opened_img": "images/minor checks/geiger_counter_gray.png",
@@ -134,7 +135,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, yellow_pikmin"
+              "ship_part_total:1"
             ],
             "chest_unopened_img": "images/minor checks/nova_blaster.png",
             "chest_opened_img": "images/minor checks/nova_blaster_gray.png",
@@ -157,7 +158,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, yellow_pikmin, the_forest_navel, blue_pikmin", "the_forest_of_hope, yellow_pikmin, logic_hard, ^$SB"
+              "ship_part_total:5", "ship_part_total:1, logic_hard, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/radiation_canopy.png",
             "chest_opened_img": "images/minor checks/radiation_canopy_gray.png",
@@ -180,7 +181,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, the_forest_navel, blue_pikmin", "the_forest_of_hope, logic_hard, ^$SB"
+              "ship_part_total:5", "ship_part_total:1, logic_hard, ^$SB"
             ],
             "chest_unopened_img": "images/minor checks/sagittarius_and_libra.png",
             "chest_opened_img": "images/minor checks/sagittarius_and_libra_gray.png",
@@ -203,7 +204,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope"
+              "ship_part_total:1"
             ],
             "chest_unopened_img": "images/minor checks/shock_absorber.png",
             "chest_opened_img": "images/minor checks/shock_absorber_gray.png",
@@ -226,7 +227,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_of_hope, yellow_pikmin"
+              "ship_part_total:1"
             ],
             "chest_unopened_img": "images/minor checks/whimsical_radar.png",
             "chest_opened_img": "images/minor checks/whimsical_radar_gray.png",

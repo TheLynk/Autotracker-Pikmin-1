@@ -65,7 +65,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, blue_pikmin"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/analog_computer.png",
             "chest_opened_img": "images/minor checks/analog_computer_gray.png",
@@ -88,7 +88,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, blue_pikmin"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/ionium_jet_1_2.png",
             "chest_opened_img": "images/minor checks/ionium_jet_1_2_gray.png",
@@ -111,7 +111,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, blue_pikmin, the_forest_of_hope, yellow_pikmin"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/sagittarius_and_libra.png",
             "chest_opened_img": "images/minor checks/sagittarius_and_libra_gray.png",
@@ -134,7 +134,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/automatic_gear.png",
             "chest_opened_img": "images/minor checks/automatic_gear_gray.png",
@@ -157,7 +157,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, the_forest_of_hope, yellow_pikmin"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/guard_satellite.png",
             "chest_opened_img": "images/minor checks/guard_satellite_gray.png",
@@ -180,7 +180,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, blue_pikmin"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/anti-dioxin_filter.png",
             "chest_opened_img": "images/minor checks/anti-dioxin_filter_gray.png",
@@ -203,7 +203,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/gravity_jumper.png",
             "chest_opened_img": "images/minor checks/gravity_jumper_gray.png",
@@ -226,7 +226,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/space_float.png",
             "chest_opened_img": "images/minor checks/space_float_gray.png",
@@ -249,7 +249,7 @@
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel"
+              "ship_part_total:5"
             ],
             "chest_unopened_img": "images/minor checks/omega_stabilizer.png",
             "chest_opened_img": "images/minor checks/omega_stabilizer_gray.png",
