@@ -49,7 +49,34 @@
               "type": "layout",
               "key": "areas_accessible_group",
               "dock": "top"
-            }
+            }/*,
+            {
+              "type": "group",
+              "header": "Useful",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Useful"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Filler",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "Filler"
+              }
+            },
+            {
+              "type": "group",
+              "header": "Pikmin Bonus",
+              "dock": "top",
+              "content": {
+                "type": "layout",
+                "key": "pikmin_bonus"
+              }
+            }*/
           ]
         },
         //Tab

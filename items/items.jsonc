@@ -8,7 +8,7 @@
     "name": "Red Pikmin",
     "type": "toggle",
     "codes": "red_pikmin",
-    "img": "images/pikmin/red_pikmin.png"
+    "img": "images/pikmin/red_pikmin_leaf.png"
   },
   {
     "name": "Yellow Pikmin",
@@ -315,6 +315,57 @@
     "img": "images/maps/the_final_trial.png"
   },
 
+  //////  Filler  //////
+  //////  Pikmin Bonus  //////
+  //////  Red Pikmin  //////
+  //////  X1  //////
+
+  /*{
+    "name": "Red Pikmin Leaf",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "red_pikmin_Leaf",
+    "img": "images/pikmin/red_pikmin_leaf.png"
+  },
+  {
+    "name": "Red Pikmin Bud",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "red_pikmin_bud",
+    "img": "images/pikmin/red_pikmin_bud.png"
+  },
+  {
+    "name": "Red Pikmin Flower",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "red_pikmin_flower",
+    "img": "images/pikmin/red_pikmin_flower.png"
+  },
+
+  //////  X5  //////
+  
+  {
+    "name": "5 Red Pikmin Leaf",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "red_pikmin_Leaf_5",
+    "img": "images/pikmin/red_pikmin_leaf.png"
+  },
+  {
+    "name": "5 Red Pikmin Bud",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "red_pikmin_bud_5",
+    "img": "images/pikmin/red_pikmin_bud.png"
+  },
+  {
+    "name": "5 Red Pikmin Flower",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "red_pikmin_flower_5",
+    "img": "images/pikmin/red_pikmin_flower.png"
+  },*/
+
   //////  Option   //////
   //////  Shuffle  //////
 
@@ -322,7 +373,7 @@
 	"name": "Shuffle Pikmin",
 	"type": "toggle",
 	"codes": "shuffle_pikmin",
-	"img": "images/pikmin/red_pikmin.png"
+	"img": "images/pikmin/red_pikmin_leaf.png"
   },
   {
 	"name": "Shuffle Map",
