@@ -12,13 +12,15 @@
             ],
             "chest_unopened_img": "images/minor checks/visit.png",
             "chest_opened_img": "images/minor checks/visit_gray.png",
+            "visibility_rules": [ "off" ],
             "item_count": 1
           },
           {
             "name": "DS 100%",
             "access_rules": [
-              "yellow_pikmin, blue_pikmin, the_forest_of_hope, the_forest_navel, distant_spring"
+              "yellow_pikmin, blue_pikmin, the_forest_of_hope, the_forest_navel, the_distant_spring"
             ],
+            "visibility_rules": [ "off" ],
             "chest_unopened_img": "images/minor checks/area_100.png",
             "chest_opened_img": "images/minor checks/area_100_gray.png",
             "item_count": 1
@@ -26,7 +28,7 @@
         ],
         "map_locations": [
           {
-            "map": "distant_spring",
+            "map": "the_distant_spring",
             "x": 630,
             "y": 880,
             "size": 30,
@@ -35,23 +37,207 @@
         ]
       },
       {
-        "name": "Ionium Jet 2",
+        "name": "#2 Ionium Jet",
         "sections": [
           {
             "name": "Ship Part",
             "access_rules": [
-              "the_forest_navel, blue_pikmin"
+              "the_forest_navel, blue_pikmin, the_distant_spring"
             ],
-            "chest_unopened_img": "images/minor checks/analog_computer.png",
-            "chest_opened_img": "images/minor checks/analog_computer_gray.png",
+            "chest_unopened_img": "images/minor checks/ionium_jet_1_2.png",
+            "chest_opened_img": "images/minor checks/ionium_jet_1_2_gray.png",
             "item_count": 1
           }
         ],
         "map_locations": [
           {
-            "map": "the_forest_navel",
-            "x": 515,
-            "y": 160,
+            "map": "the_distant_spring",
+            "x": 485,
+            "y": 120,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Chronos Reactor",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_forest_of_hope, yellow_pikmin, the_forest_navel, blue_pikmin, the_distant_spring"
+            ],
+            "chest_unopened_img": "images/minor checks/chronos_reactor.png",
+            "chest_opened_img": "images/minor checks/chronos_reactor_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 675,
+            "y": 120,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Pilot's Seat",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring"
+            ],
+            "chest_unopened_img": "images/minor checks/pilots_seat.png",
+            "chest_opened_img": "images/minor checks/pilots_seat_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 418,
+            "y": 357,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Zirconium Rotor",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring, the_forest_naval, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/zirconium_rotor.png",
+            "chest_opened_img": "images/minor checks/zirconium_rotor_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 170,
+            "y": 580,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Bowsprit",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring"
+            ],
+            "chest_unopened_img": "images/minor checks/bowsprit.png",
+            "chest_opened_img": "images/minor checks/bowsprit_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 520,
+            "y": 730,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "UV Lamp",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring, the_forest_of_hope, yellow_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/uv_lamp.png",
+            "chest_opened_img": "images/minor checks/uv_lamp_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 890,
+            "y": 760,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Repair-Type Bolt",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring, the_forest_naval, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/repair-type_bolt.png",
+            "chest_opened_img": "images/minor checks/repair-type_bolt_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 960,
+            "y": 1000,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Massage Machine",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring, the_forest_naval, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/massage_machine.png",
+            "chest_opened_img": "images/minor checks/massage_machine_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 900,
+            "y": 1360,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
+        "name": "Interstellar Radio",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring, the_forest_naval, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/interstellar_radio.png",
+            "chest_opened_img": "images/minor checks/interstellar_radio_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 620,
+            "y": 1570,
             "size": 26,
             "shape": "diamond"
           }

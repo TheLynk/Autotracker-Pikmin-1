@@ -14,7 +14,7 @@
               "type": "dock",
               "dock": "left",
               "content": [
-                {
+                /*{
                 "type": "group",
                 "header": "Shuffle",
                 "dock": "left",
@@ -28,7 +28,7 @@
                     "key": "shuffle_map"
                   }
                 ]
-                },
+                },*/
                 {
                 "type": "group",
                 "header": "Locations",
@@ -37,7 +37,7 @@
                   {
                     "type": "layout",
                     "key": "pikmin_location"
-                  },
+                  }/*,
                   {
                     "type": "layout",
                     "key": "wall_location"
@@ -49,7 +49,7 @@
                   {
                     "type": "layout",
                     "key": "bridge_location"
-                  }
+                  }*/
                 ]
                 },
                 {
