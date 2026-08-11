@@ -10,26 +10,26 @@ Download the Pikmin1.zip file and install the pack to your PopTracker. On the Po
 
 ### Location "Ship Part" :
 - [ ] World Map
-- [x] The Impact Site [TIS]
-- [x] The Forest Of Hope [TFoH]
-- [x] The Forest Navel [TFN]
+- [x] ~~The Impact Site [TIS]~~
+- [x] ~~The Forest Of Hope [TFoH]~~
+- [x] ~~The Forest Navel [TFN]~~
 - [ ] The Distant Spring [TDS]
 - [ ] The Final Trial [TFT]
 - [ ] Achievement / Other check
 
 ### AutoTracking "Ship Part" : 
 - [ ] World Map
-- [x] The Impact Site [TIS]
-- [x] The Forest Of Hope [TFoH]
-- [x] The Forest Navel [TFN]
+- [x] ~~The Impact Site [TIS]~~
+- [x] ~~The Forest Of Hope [TFoH]~~
+- [x] ~~The Forest Navel [TFN]~~
 - [ ] The Distant Spring [TDS]
 - [ ] The Final Trial [TFT]
 
 ### Location "Wall" :
 - [ ] World Map
-- [x] The Impact Site [TIS]
-- [x] The Forest Of Hope [TFoH]
-- [x] The Forest Navel [TFN]
+- [x] ~~The Impact Site [TIS]~~
+- [x] ~~The Forest Of Hope [TFoH]~~
+- [x] ~~The Forest Navel [TFN]~~
 - [ ] The Distant Spring [TDS]
 - [ ] The Final Trial [TFT]
 
@@ -43,8 +43,8 @@ Download the Pikmin1.zip file and install the pack to your PopTracker. On the Po
 
 ### Location "Box" :
 - [ ] World Map
-- [x] The Impact Site [TIS]
-- [x] The Forest Of Hope [TFoH]
+- [x] ~~The Impact Site [TIS]~~
+- [x] ~~The Forest Of Hope [TFoH]~~
 - [ ] The Final Trial [TFT]
 
 ### AutoTracking "Box" :
@@ -55,8 +55,8 @@ Download the Pikmin1.zip file and install the pack to your PopTracker. On the Po
 
 ### Location "Bridge" :
 - [ ] World Map
-- [x] The Forest Of Hope [TFoH]
-- [x] The Forest Navel [TFN]
+- [x] ~~The Forest Of Hope [TFoH]~~
+- [x] ~~The Forest Navel [TFN]~~
 - [ ] The Distant Spring [TDS]
 - [ ] The Final Trial [TFT]
 
@@ -68,7 +68,7 @@ Download the Pikmin1.zip file and install the pack to your PopTracker. On the Po
 - [ ] The Final Trial [TFT]
 
 ### Location "Pikmin" :
-- [x] Add New Map
+- [x] ~~Add New Map~~
 - [ ] Add Option
 - [ ] Add Logic
 - [ ] Add AutoTracking
