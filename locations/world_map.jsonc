@@ -238,8 +238,8 @@
             "name": "Analog Computer"
           },
           {
-            "ref": "The Forest Navel/Ionium Jet 1/Ship Part",
-            "name": "Ionium Jet 1"
+            "ref": "The Forest Navel/#1 Ionium Jet/Ship Part",
+            "name": "#1 Ionium Jet"
           },
           {
             "ref": "The Forest Navel/Libra/Ship Part",
@@ -337,13 +337,79 @@
             "ref": "The Forest Navel/FN Build bridge land to island/Bridge",
             "name": "FN Build bridge land to island"
           }
-          
         ],
+
         "map_locations": [
           {
             "map": "world_map",
             "x": 1670,
             "y": 1160,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Distant Spring | Ship Part",
+        "sections": [
+          {
+            "ref": "The Distant Spring/#2 Ionium Jet/Ship Part",
+            "name": "#2 Ionium Jet"
+          },
+          {
+            "ref": "The Distant Spring/Chronos Reactor/Ship Part",
+            "name": "Chronos Reactor"
+          },
+          {
+            "ref": "The Distant Spring/Pilot's Seat/Ship Part",
+            "name": "Pilot's Seat"
+          },
+          {
+            "ref": "The Distant Spring/Zirconium Rotor/Ship Part",
+            "name": "Zirconium Rotor"
+          },
+          {
+            "ref": "The Distant Spring/Bowsprit/Ship Part",
+            "name": "Bowsprit"
+          },
+          {
+            "ref": "The Distant Spring/UV Lamp/Ship Part",
+            "name": "UV Lamp"
+          },
+          {
+            "ref": "The Distant Spring/Repair-Type Bolt/Ship Part",
+            "name": "Repair-Type Bolt"
+          },
+          {
+            "ref": "The Distant Spring/Massage Machine/Ship Part",
+            "name": "Massage Machine"
+          },
+          {
+            "ref": "The Distant Spring/Interstellar Radio/Ship Part",
+            "name": "Interstellar Radio"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 500,
+            "y": 900,
+            "size": 60
+          }
+        ]
+      },
+      {
+        "name": "The Final Trial | Ship Part",
+        "sections": [
+          {
+            "ref": "The Final Trial/Secret Safe/Ship Part",
+            "name": "Secret Safe"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "world_map",
+            "x": 2300,
+            "y": 500,
             "size": 60
           }
         ]

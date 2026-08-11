@@ -1,5 +1,5 @@
 ITEM_MAPPING = {
-    
+
     -- /////  Ship Part Required  //////
     -- /////  The Impact Site  //////
 
@@ -16,7 +16,7 @@ ITEM_MAPPING = {
     [71416] = { {"shock_absorber"}, {"ship_part_required"}, {"ship_part_total"} },
     [71405] = { {"whimsical_radar"}, {"ship_part_required"}, {"ship_part_total"} },
 
-    -- ////// The Forest Naval  //////
+    -- ////// The Forest Navel  //////
 
     [71420] = { {"automatic_gear"}, {"ship_part_required"}, {"ship_part_total"} },
     [71414] = { {"1_ionium_jet"}, {"ship_part_required"}, {"ship_part_total"} },

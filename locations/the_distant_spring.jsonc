@@ -129,6 +129,29 @@
         ]
       },
       {
+        "name": "Gluon Drive",
+        "sections": [
+          {
+            "name": "Ship Part",
+            "access_rules": [
+              "the_distant_spring, the_forest_naval, blue_pikmin"
+            ],
+            "chest_unopened_img": "images/minor checks/gluon_drive.png",
+            "chest_opened_img": "images/minor checks/gluon_drive_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "the_distant_spring",
+            "x": 100,
+            "y": 660,
+            "size": 26,
+            "shape": "diamond"
+          }
+        ]
+      },
+      {
         "name": "Bowsprit",
         "sections": [
           {
