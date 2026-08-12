@@ -95,12 +95,12 @@
       ]
     ]
   },
-  /*"pikmin_bonus": {
+  "pikmin_bonus": {
     "type": "itemgrid",
     "h_alignment": "center",
-    "margin": "10,0,0,-10",
-    "item_margin": "2,0",
-    "item_size": 56,
+    "margin": "-5,0,0,0",
+    "item_margin": "-5,0",
+    "item_size": 70,
     "rows": [
       [
         "red_pikmin_leaf",
@@ -111,7 +111,7 @@
         "red_pikmin_flower_5"
       ]
     ]
-  },*/
+  },
   "shuffle_pikmin": {
     "type": "itemgrid",
     "h_alignment": "center",
@@ -137,6 +137,15 @@
     "item_size": "64,64",
     "rows": [
       ["pikmin_location"]
+    ]
+  },
+  "red_pikmin_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["red_pikmin_location"]
     ]
   },
   "wall_location": {

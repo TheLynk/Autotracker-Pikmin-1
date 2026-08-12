@@ -320,7 +320,7 @@
   //////  Red Pikmin  //////
   //////  X1  //////
 
-  /*{
+  {
     "name": "Red Pikmin Leaf",
     "type": "consumable",
     "initial_quantity": 0,
@@ -364,7 +364,7 @@
     "initial_quantity": 0,
     "codes": "red_pikmin_flower_5",
     "img": "images/pikmin/red_pikmin_flower.png"
-  },*/
+  },
 
   //////  Option   //////
   //////  Shuffle  //////
@@ -389,6 +389,14 @@
 	"type": "toggle",
 	"codes": "pikmin_location",
 	"img": "images/option/pikmin_location.png"
+  },
+  {
+	"name": "Red Pikmin Location",
+	"type": "consumable",
+  "initial_quantity": 0,
+  "max_quantity": 100,
+	"codes": "red_pikmin_location",
+	"img": "images/pikmin/red_pikmin_leaf.png"
   },
   {
 	"name": "Wall Location",

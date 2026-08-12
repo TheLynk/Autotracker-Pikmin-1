@@ -37,6 +37,10 @@
                   {
                     "type": "layout",
                     "key": "pikmin_location"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "red_pikmin_location"
                   }/*,
                   {
                     "type": "layout",

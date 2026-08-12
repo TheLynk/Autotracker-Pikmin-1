@@ -1,5 +1,10 @@
 ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
 
+function red_pikmin_location_is(value)
+    local item = Tracker:FindObjectForCode("red_pikmin_location")
+    return item ~= nil and item.AcquiredCount == tonumber(value)
+end
+
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     if not amount then

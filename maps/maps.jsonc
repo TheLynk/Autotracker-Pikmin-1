@@ -7,8 +7,8 @@
     "img": "images/maps/world_map.png"
   },
   {
-    "name": "pikmin_location",
-    "location_size": 48,
+    "name": "pikmin_location_map",
+    "location_size": 64,
     "location_border_thickness": 4,
     "img": "images/maps/pikmin_location.png"
   },

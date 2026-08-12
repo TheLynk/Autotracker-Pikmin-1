@@ -1,7 +1,7 @@
 {
   "name": "Pikmin 1",
   "game_name": "Pikmin",
-  "package_version": "1.0.0",
+  "package_version": "2.0.0",
   "package_uid": "Pikmin_1_TheLynk_poptracker",
   "platform": "Game Cube",
   "author": "TheLynk",
@@ -9,7 +9,7 @@
   "target_poptracker_version": "0.31.0",
   "variants": {
     "standard": {
-      "display_name": "Map Tracker For Apworld 0.5.1",
+      "display_name": "Map Tracker For Apworld 0.6.0",
       "flags": [
         "ap"
       ]

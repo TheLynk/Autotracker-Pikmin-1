@@ -22,7 +22,7 @@
               "content": {
                 "type": "map",
                 "maps": [
-                  "pikmin_location"
+                  "pikmin_location_map"
                 ]
               }
             },
