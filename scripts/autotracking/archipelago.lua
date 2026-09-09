@@ -391,12 +391,16 @@ end
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
-if AUTOTRACKER_ENABLE_ITEM_TRACKING then
-	Archipelago:AddItemHandler("item handler", onItem)
-end
-if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
-	Archipelago:AddLocationHandler("location handler", onLocation)
-end
+--Tracker:FindObjectForCode("trip_imunity").Active = slot_data.disable_pikmin_trip == 1
+--Tracker:FindObjectForCode("ship_part_hint_mode").CurrentStage = slot_data.ship_part_hint_mode
+
+	if AUTOTRACKER_ENABLE_ITEM_TRACKING then
+		Archipelago:AddItemHandler("item handler", onItem)
+	end
+
+	if AUTOTRACKER_ENABLE_LOCATION_TRACKING then
+		Archipelago:AddLocationHandler("location handler", onLocation)
+	end
 Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
 -- Archipelago:AddScoutHandler("scout handler", onScout)

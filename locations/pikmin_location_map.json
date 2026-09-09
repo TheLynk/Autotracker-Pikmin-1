@@ -2095,6 +2095,4194 @@
             "size": 10
           }
         ]
+      },
+      {
+        "name": "Yellow Pikmin: 1-10",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 1",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 2",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 3",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 4",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 5",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 6",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 7",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 8",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 9",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 10",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 250,
+            "y": 170,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Yellow Pikmin: 11-20",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 11",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|11"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|11"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 12",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|12"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|12"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 13",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|13"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|13"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 14",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 15",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|15"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|15"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 16",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|16"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|16"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 17",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|17"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|17"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 18",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|18"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|18"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 19",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|19"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|19"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 20",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|20"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|20"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 270,
+            "y": 170,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Yellow Pikmin: 21-30",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 21",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|21"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|21"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 22",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 23",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|23"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|23"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 24",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|24"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|24"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 25",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|25"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|25"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 26",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|26"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|26"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 27",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|27"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|27"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 28",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|28"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|28"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 29",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|29"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|29"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 30",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|30"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|30"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 250,
+            "y": 190,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Yellow Pikmin: 31-40",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 31",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|31"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|31"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 32",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|32"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|32"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 33",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|33"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|33"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 34",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|34"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|34"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 35",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|35"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|35"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 36",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|36"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|36"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 37",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|37"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|37"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 38",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|38"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|38"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 39",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|39"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|39"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 40",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|40"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|40"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 270,
+            "y": 190,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Yellow Pikmin: 41-50",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 41",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|41"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|41"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 42",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|21",
+              "$yellow_pikmin_location_is|42"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|21",
+              "$yellow_pikmin_location_is|42"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 43",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|43"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|43"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 44",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22",
+              "$yellow_pikmin_location_is|44"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22",
+              "$yellow_pikmin_location_is|44"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 45",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|45"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|45"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 46",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|23",
+              "$yellow_pikmin_location_is|46"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|23",
+              "$yellow_pikmin_location_is|46"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 47",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|47"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|47"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 48",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|24",
+              "$yellow_pikmin_location_is|48"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|24",
+              "$yellow_pikmin_location_is|48"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 49",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|49"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|49"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 50",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|25",
+              "$yellow_pikmin_location_is|50"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|25",
+              "$yellow_pikmin_location_is|50"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 250,
+            "y": 210,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Yellow Pikmin: 51-60",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 51",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|51"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|51"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 52",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|26",
+              "$yellow_pikmin_location_is|52"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|26",
+              "$yellow_pikmin_location_is|52"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 53",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|53"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|53"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 54",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|27",
+              "$yellow_pikmin_location_is|54"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|27",
+              "$yellow_pikmin_location_is|54"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 55",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|55"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|55"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 56",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|28",
+              "$yellow_pikmin_location_is|56"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|28",
+              "$yellow_pikmin_location_is|56"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 57",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|57"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|57"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 58",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|29",
+              "$yellow_pikmin_location_is|58"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|29",
+              "$yellow_pikmin_location_is|58"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 59",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|59"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|59"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 60",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|30",
+              "$yellow_pikmin_location_is|60"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|30",
+              "$yellow_pikmin_location_is|60"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 270,
+            "y": 210,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Yellow Pikmin: 61-70",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 61",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|61"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|61"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 62",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|31",
+              "$yellow_pikmin_location_is|62"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|31",
+              "$yellow_pikmin_location_is|62"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 63",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|21",
+              "$yellow_pikmin_location_is|63"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|21",
+              "$yellow_pikmin_location_is|63"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 64",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|32",
+              "$yellow_pikmin_location_is|64"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|32",
+              "$yellow_pikmin_location_is|64"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 65",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|65"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|65"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 66",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22",
+              "$yellow_pikmin_location_is|33",
+              "$yellow_pikmin_location_is|66"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22",
+              "$yellow_pikmin_location_is|33",
+              "$yellow_pikmin_location_is|66"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 67",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|67"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|67"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 68",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|34",
+              "$yellow_pikmin_location_is|68"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|34",
+              "$yellow_pikmin_location_is|68"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 69",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|23",
+              "$yellow_pikmin_location_is|69"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|23",
+              "$yellow_pikmin_location_is|69"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 70",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|35",
+              "$yellow_pikmin_location_is|70"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|35",
+              "$yellow_pikmin_location_is|70"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 250,
+            "y": 230,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Yellow Pikmin: 71-80",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 71",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|71"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|71"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 72",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|24",
+              "$yellow_pikmin_location_is|36",
+              "$yellow_pikmin_location_is|72"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|24",
+              "$yellow_pikmin_location_is|36",
+              "$yellow_pikmin_location_is|72"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 73",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|73"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|73"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 74",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|37",
+              "$yellow_pikmin_location_is|74"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|37",
+              "$yellow_pikmin_location_is|74"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 75",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|25",
+              "$yellow_pikmin_location_is|75"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|25",
+              "$yellow_pikmin_location_is|75"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 76",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|38",
+              "$yellow_pikmin_location_is|76"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|38",
+              "$yellow_pikmin_location_is|76"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 77",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|77"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|77"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 78",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|26",
+              "$yellow_pikmin_location_is|39",
+              "$yellow_pikmin_location_is|78"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|26",
+              "$yellow_pikmin_location_is|39",
+              "$yellow_pikmin_location_is|78"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 79",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|79"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|79"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 80",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|40",
+              "$yellow_pikmin_location_is|80"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|40",
+              "$yellow_pikmin_location_is|80"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 270,
+            "y": 230,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Yellow Pikmin: 81-90",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 81",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|27",
+              "$yellow_pikmin_location_is|81"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|27",
+              "$yellow_pikmin_location_is|81"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 82",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|41",
+              "$yellow_pikmin_location_is|82"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|41",
+              "$yellow_pikmin_location_is|82"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 83",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|83"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|83"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 84",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|21",
+              "$yellow_pikmin_location_is|28",
+              "$yellow_pikmin_location_is|42",
+              "$yellow_pikmin_location_is|84"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|21",
+              "$yellow_pikmin_location_is|28",
+              "$yellow_pikmin_location_is|42",
+              "$yellow_pikmin_location_is|84"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 85",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|85"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|17",
+              "$yellow_pikmin_location_is|85"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 86",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|43",
+              "$yellow_pikmin_location_is|86"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|43",
+              "$yellow_pikmin_location_is|86"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 87",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|29",
+              "$yellow_pikmin_location_is|87"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|29",
+              "$yellow_pikmin_location_is|87"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 88",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22",
+              "$yellow_pikmin_location_is|44",
+              "$yellow_pikmin_location_is|88"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|22",
+              "$yellow_pikmin_location_is|44",
+              "$yellow_pikmin_location_is|88"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 89",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|89"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|89"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 90",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|30",
+              "$yellow_pikmin_location_is|45",
+              "$yellow_pikmin_location_is|90"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|15",
+              "$yellow_pikmin_location_is|18",
+              "$yellow_pikmin_location_is|30",
+              "$yellow_pikmin_location_is|45",
+              "$yellow_pikmin_location_is|90"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 250,
+            "y": 250,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Yellow Pikmin: 91-100",
+        "sections": [
+          {
+            "name": "Yellow Pikmin: 91",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|91"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|13",
+              "$yellow_pikmin_location_is|91"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 92",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|23",
+              "$yellow_pikmin_location_is|46",
+              "$yellow_pikmin_location_is|92"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|23",
+              "$yellow_pikmin_location_is|46",
+              "$yellow_pikmin_location_is|92"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 93",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|31",
+              "$yellow_pikmin_location_is|93"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|31",
+              "$yellow_pikmin_location_is|93"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 94",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|47",
+              "$yellow_pikmin_location_is|94"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|47",
+              "$yellow_pikmin_location_is|94"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 95",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|95"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|19",
+              "$yellow_pikmin_location_is|95"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 96",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|24",
+              "$yellow_pikmin_location_is|32",
+              "$yellow_pikmin_location_is|48",
+              "$yellow_pikmin_location_is|96"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|6",
+              "$yellow_pikmin_location_is|8",
+              "$yellow_pikmin_location_is|12",
+              "$yellow_pikmin_location_is|16",
+              "$yellow_pikmin_location_is|24",
+              "$yellow_pikmin_location_is|32",
+              "$yellow_pikmin_location_is|48",
+              "$yellow_pikmin_location_is|96"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 97",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|97"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|97"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 98",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|49",
+              "$yellow_pikmin_location_is|98"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|7",
+              "$yellow_pikmin_location_is|14",
+              "$yellow_pikmin_location_is|49",
+              "$yellow_pikmin_location_is|98"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 99",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|33",
+              "$yellow_pikmin_location_is|99"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|3",
+              "$yellow_pikmin_location_is|9",
+              "$yellow_pikmin_location_is|11",
+              "$yellow_pikmin_location_is|33",
+              "$yellow_pikmin_location_is|99"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Yellow Pikmin: 100",
+            "access_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|25",
+              "$yellow_pikmin_location_is|50",
+              "$yellow_pikmin_location_is|100"
+            ],
+            "visibility_rules": [
+              "$yellow_pikmin_location_is|1",
+              "$yellow_pikmin_location_is|2",
+              "$yellow_pikmin_location_is|4",
+              "$yellow_pikmin_location_is|5",
+              "$yellow_pikmin_location_is|10",
+              "$yellow_pikmin_location_is|20",
+              "$yellow_pikmin_location_is|25",
+              "$yellow_pikmin_location_is|50",
+              "$yellow_pikmin_location_is|100"
+            ],
+            "chest_unopened_img": "images/pikmin/yellow_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/yellow_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 270,
+            "y": 250,
+            "size": 10
+          }
+        ]
+        },
+        {
+        "name": "Blue Pikmin: 1-10",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 1",
+            "access_rules": [
+              "$blue_pikmin_location_is|1"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 2",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 3",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 4",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 5",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 6",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 7",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 8",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 9",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 10",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 510,
+            "y": 170,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Blue Pikmin: 11-20",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 11",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|11"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|11"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 12",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|12"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|12"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 13",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|13"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|13"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 14",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 15",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|15"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|15"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 16",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|16"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|16"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 17",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|17"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|17"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 18",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|18"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|18"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 19",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|19"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|19"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 20",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|20"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|20"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 530,
+            "y": 170,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Blue Pikmin: 21-30",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 21",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|21"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|21"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 22",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 23",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|23"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|23"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 24",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|24"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|24"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 25",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|25"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|25"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 26",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|26"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|26"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 27",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|27"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|27"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 28",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|28"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|28"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 29",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|29"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|29"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 30",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|30"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|30"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 510,
+            "y": 190,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Blue Pikmin: 31-40",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 31",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|31"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|31"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 32",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|32"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|32"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 33",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|33"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|33"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 34",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|34"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|34"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 35",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|35"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|35"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 36",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|36"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|36"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 37",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|37"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|37"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 38",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|38"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|38"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 39",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|39"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|39"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 40",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|40"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|40"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 530,
+            "y": 190,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Blue Pikmin: 41-50",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 41",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|41"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|41"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 42",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|21",
+              "$blue_pikmin_location_is|42"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|21",
+              "$blue_pikmin_location_is|42"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 43",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|43"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|43"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 44",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22",
+              "$blue_pikmin_location_is|44"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22",
+              "$blue_pikmin_location_is|44"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 45",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|45"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|45"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 46",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|23",
+              "$blue_pikmin_location_is|46"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|23",
+              "$blue_pikmin_location_is|46"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 47",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|47"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|47"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 48",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|24",
+              "$blue_pikmin_location_is|48"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|24",
+              "$blue_pikmin_location_is|48"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 49",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|49"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|49"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 50",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|25",
+              "$blue_pikmin_location_is|50"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|25",
+              "$blue_pikmin_location_is|50"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 510,
+            "y": 210,
+            "size": 10
+          }
+        ]
+      },
+      {
+          "name": "Blue Pikmin: 51-60",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 51",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|51"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|51"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 52",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|26",
+              "$blue_pikmin_location_is|52"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|26",
+              "$blue_pikmin_location_is|52"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 53",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|53"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|53"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 54",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|27",
+              "$blue_pikmin_location_is|54"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|27",
+              "$blue_pikmin_location_is|54"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 55",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|55"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|55"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 56",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|28",
+              "$blue_pikmin_location_is|56"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|28",
+              "$blue_pikmin_location_is|56"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 57",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|57"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|57"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 58",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|29",
+              "$blue_pikmin_location_is|58"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|29",
+              "$blue_pikmin_location_is|58"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 59",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|59"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|59"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 60",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|30",
+              "$blue_pikmin_location_is|60"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|30",
+              "$blue_pikmin_location_is|60"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 530,
+            "y": 210,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Blue Pikmin: 61-70",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 61",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|61"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|61"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 62",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|31",
+              "$blue_pikmin_location_is|62"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|31",
+              "$blue_pikmin_location_is|62"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 63",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|21",
+              "$blue_pikmin_location_is|63"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|21",
+              "$blue_pikmin_location_is|63"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 64",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|32",
+              "$blue_pikmin_location_is|64"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|32",
+              "$blue_pikmin_location_is|64"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 65",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|65"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|65"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 66",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22",
+              "$blue_pikmin_location_is|33",
+              "$blue_pikmin_location_is|66"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22",
+              "$blue_pikmin_location_is|33",
+              "$blue_pikmin_location_is|66"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 67",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|67"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|67"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 68",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|34",
+              "$blue_pikmin_location_is|68"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|34",
+              "$blue_pikmin_location_is|68"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 69",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|23",
+              "$blue_pikmin_location_is|69"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|23",
+              "$blue_pikmin_location_is|69"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 70",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|35",
+              "$blue_pikmin_location_is|70"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|35",
+              "$blue_pikmin_location_is|70"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 510,
+            "y": 230,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Blue Pikmin: 71-80",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 71",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|71"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|71"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 72",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|24",
+              "$blue_pikmin_location_is|36",
+              "$blue_pikmin_location_is|72"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|24",
+              "$blue_pikmin_location_is|36",
+              "$blue_pikmin_location_is|72"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 73",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|73"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|73"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 74",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|37",
+              "$blue_pikmin_location_is|74"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|37",
+              "$blue_pikmin_location_is|74"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 75",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|25",
+              "$blue_pikmin_location_is|75"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|25",
+              "$blue_pikmin_location_is|75"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 76",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|38",
+              "$blue_pikmin_location_is|76"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|38",
+              "$blue_pikmin_location_is|76"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 77",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|77"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|77"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 78",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|26",
+              "$blue_pikmin_location_is|39",
+              "$blue_pikmin_location_is|78"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|26",
+              "$blue_pikmin_location_is|39",
+              "$blue_pikmin_location_is|78"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 79",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|79"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|79"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 80",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|40",
+              "$blue_pikmin_location_is|80"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|40",
+              "$blue_pikmin_location_is|80"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 530,
+            "y": 230,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Blue Pikmin: 81-90",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 81",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|27",
+              "$blue_pikmin_location_is|81"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|27",
+              "$blue_pikmin_location_is|81"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 82",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|41",
+              "$blue_pikmin_location_is|82"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|41",
+              "$blue_pikmin_location_is|82"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 83",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|83"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|83"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 84",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|21",
+              "$blue_pikmin_location_is|28",
+              "$blue_pikmin_location_is|42",
+              "$blue_pikmin_location_is|84"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|21",
+              "$blue_pikmin_location_is|28",
+              "$blue_pikmin_location_is|42",
+              "$blue_pikmin_location_is|84"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 85",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|85"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|17",
+              "$blue_pikmin_location_is|85"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 86",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|43",
+              "$blue_pikmin_location_is|86"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|43",
+              "$blue_pikmin_location_is|86"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 87",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|29",
+              "$blue_pikmin_location_is|87"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|29",
+              "$blue_pikmin_location_is|87"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 88",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22",
+              "$blue_pikmin_location_is|44",
+              "$blue_pikmin_location_is|88"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|22",
+              "$blue_pikmin_location_is|44",
+              "$blue_pikmin_location_is|88"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 89",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|89"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|89"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 90",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|30",
+              "$blue_pikmin_location_is|45",
+              "$blue_pikmin_location_is|90"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|15",
+              "$blue_pikmin_location_is|18",
+              "$blue_pikmin_location_is|30",
+              "$blue_pikmin_location_is|45",
+              "$blue_pikmin_location_is|90"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 510,
+            "y": 250,
+            "size": 10
+          }
+        ]
+      },
+      {
+        "name": "Blue Pikmin: 91-100",
+        "sections": [
+          {
+            "name": "Blue Pikmin: 91",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|91"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|13",
+              "$blue_pikmin_location_is|91"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 92",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|23",
+              "$blue_pikmin_location_is|46",
+              "$blue_pikmin_location_is|92"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|23",
+              "$blue_pikmin_location_is|46",
+              "$blue_pikmin_location_is|92"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 93",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|31",
+              "$blue_pikmin_location_is|93"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|31",
+              "$blue_pikmin_location_is|93"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 94",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|47",
+              "$blue_pikmin_location_is|94"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|47",
+              "$blue_pikmin_location_is|94"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 95",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|95"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|19",
+              "$blue_pikmin_location_is|95"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 96",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|24",
+              "$blue_pikmin_location_is|32",
+              "$blue_pikmin_location_is|48",
+              "$blue_pikmin_location_is|96"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|6",
+              "$blue_pikmin_location_is|8",
+              "$blue_pikmin_location_is|12",
+              "$blue_pikmin_location_is|16",
+              "$blue_pikmin_location_is|24",
+              "$blue_pikmin_location_is|32",
+              "$blue_pikmin_location_is|48",
+              "$blue_pikmin_location_is|96"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 97",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|97"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|97"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 98",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|49",
+              "$blue_pikmin_location_is|98"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|7",
+              "$blue_pikmin_location_is|14",
+              "$blue_pikmin_location_is|49",
+              "$blue_pikmin_location_is|98"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 99",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|33",
+              "$blue_pikmin_location_is|99"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|3",
+              "$blue_pikmin_location_is|9",
+              "$blue_pikmin_location_is|11",
+              "$blue_pikmin_location_is|33",
+              "$blue_pikmin_location_is|99"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          },
+          {
+            "name": "Blue Pikmin: 100",
+            "access_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|25",
+              "$blue_pikmin_location_is|50",
+              "$blue_pikmin_location_is|100"
+            ],
+            "visibility_rules": [
+              "$blue_pikmin_location_is|1",
+              "$blue_pikmin_location_is|2",
+              "$blue_pikmin_location_is|4",
+              "$blue_pikmin_location_is|5",
+              "$blue_pikmin_location_is|10",
+              "$blue_pikmin_location_is|20",
+              "$blue_pikmin_location_is|25",
+              "$blue_pikmin_location_is|50",
+              "$blue_pikmin_location_is|100"
+            ],
+            "chest_unopened_img": "images/pikmin/blue_pikmin_leaf.png",
+            "chest_opened_img": "images/pikmin/blue_pikmin_leaf_gray.png",
+            "item_count": 1
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pikmin_location_map",
+            "x": 530,
+            "y": 250,
+            "size": 10
+          }
+        ]
       }
     ]
   }

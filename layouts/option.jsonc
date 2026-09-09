@@ -41,6 +41,14 @@
                   {
                     "type": "layout",
                     "key": "red_pikmin_location"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "yellow_pikmin_location"
+                  },
+                  {
+                    "type": "layout",
+                    "key": "blue_pikmin_location"
                   }/*,
                   {
                     "type": "layout",

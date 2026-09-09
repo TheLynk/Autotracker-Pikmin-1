@@ -5,6 +5,16 @@ function red_pikmin_location_is(value)
     return item ~= nil and item.AcquiredCount == tonumber(value)
 end
 
+function yellow_pikmin_location_is(value)
+    local item = Tracker:FindObjectForCode("yellow_pikmin_location")
+    return item ~= nil and item.AcquiredCount == tonumber(value)
+end
+
+function blue_pikmin_location_is(value)
+    local item = Tracker:FindObjectForCode("blue_pikmin_location")
+    return item ~= nil and item.AcquiredCount == tonumber(value)
+end
+
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
     if not amount then

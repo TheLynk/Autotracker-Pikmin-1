@@ -95,11 +95,23 @@
       ]
     ]
   },
+  "useful": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "margin": "0,0,0,0",
+    "item_margin": "12,0",
+    "item_size": 50,
+    "rows": [
+      [
+        "trip_imunity"
+      ]
+    ]
+  },
   "pikmin_bonus": {
     "type": "itemgrid",
     "h_alignment": "center",
     "margin": "-5,0,0,0",
-    "item_margin": "-5,0",
+    "item_margin": "-5,2",
     "item_size": 70,
     "rows": [
       [
@@ -109,6 +121,22 @@
         "red_pikmin_leaf_5",
         "red_pikmin_bud_5",
         "red_pikmin_flower_5"
+      ],
+      [
+        "yellow_pikmin_leaf",
+        "yellow_pikmin_bud",
+        "yellow_pikmin_flower",
+        "yellow_pikmin_leaf_5",
+        "yellow_pikmin_bud_5",
+        "yellow_pikmin_flower_5"
+      ],
+      [
+        "blue_pikmin_leaf",
+        "blue_pikmin_bud",
+        "blue_pikmin_flower",
+        "blue_pikmin_leaf_5",
+        "blue_pikmin_bud_5",
+        "blue_pikmin_flower_5"
       ]
     ]
   },
@@ -146,6 +174,24 @@
     "item_size": "64,64",
     "rows": [
       ["red_pikmin_location"]
+    ]
+  },
+  "yellow_pikmin_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["yellow_pikmin_location"]
+    ]
+  },
+  "blue_pikmin_location": {
+    "type": "itemgrid",
+    "h_alignment": "center",
+    "item_margin": "5,3",
+    "item_size": "64,64",
+    "rows": [
+      ["blue_pikmin_location"]
     ]
   },
   "wall_location": {

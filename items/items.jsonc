@@ -315,6 +315,15 @@
     "img": "images/maps/the_final_trial.png"
   },
 
+  //////  Useful  //////
+  
+  {
+    "name": "Trip Imunity",
+    "type": "toggle",
+    "codes": "trip_imunity",
+    "img": "images/pikmin/red_pikmin_bud_trip.png"
+  },
+
   //////  Filler  //////
   //////  Pikmin Bonus  //////
   //////  Red Pikmin  //////
@@ -325,21 +334,21 @@
     "type": "consumable",
     "initial_quantity": 0,
     "codes": "red_pikmin_Leaf",
-    "img": "images/pikmin/red_pikmin_leaf.png"
+    "img": "images/pikmin/red_pikmin_leaf_1.png"
   },
   {
     "name": "Red Pikmin Bud",
     "type": "consumable",
     "initial_quantity": 0,
     "codes": "red_pikmin_bud",
-    "img": "images/pikmin/red_pikmin_bud.png"
+    "img": "images/pikmin/red_pikmin_bud_1.png"
   },
   {
     "name": "Red Pikmin Flower",
     "type": "consumable",
     "initial_quantity": 0,
     "codes": "red_pikmin_flower",
-    "img": "images/pikmin/red_pikmin_flower.png"
+    "img": "images/pikmin/red_pikmin_flower_1.png"
   },
 
   //////  X5  //////
@@ -349,21 +358,119 @@
     "type": "consumable",
     "initial_quantity": 0,
     "codes": "red_pikmin_Leaf_5",
-    "img": "images/pikmin/red_pikmin_leaf.png"
+    "img": "images/pikmin/red_pikmin_leaf_5.png"
   },
   {
     "name": "5 Red Pikmin Bud",
     "type": "consumable",
     "initial_quantity": 0,
     "codes": "red_pikmin_bud_5",
-    "img": "images/pikmin/red_pikmin_bud.png"
+    "img": "images/pikmin/red_pikmin_bud_5.png"
   },
   {
     "name": "5 Red Pikmin Flower",
     "type": "consumable",
     "initial_quantity": 0,
     "codes": "red_pikmin_flower_5",
-    "img": "images/pikmin/red_pikmin_flower.png"
+    "img": "images/pikmin/red_pikmin_flower_5.png"
+  },
+
+  //////  Yellow Pikmin  //////
+  //////  X1  //////
+
+  {
+    "name": "Yellow Pikmin Leaf",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "yellow_pikmin_Leaf",
+    "img": "images/pikmin/yellow_pikmin_leaf_1.png"
+  },
+  {
+    "name": "Yellow Pikmin Bud",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "yellow_pikmin_bud",
+    "img": "images/pikmin/yellow_pikmin_bud_1.png"
+  },
+  {
+    "name": "Yellow Pikmin Flower",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "yellow_pikmin_flower",
+    "img": "images/pikmin/yellow_pikmin_flower_1.png"
+  },
+
+  //////  X5  //////
+  
+  {
+    "name": "5 Yellow Pikmin Leaf",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "yellow_pikmin_Leaf_5",
+    "img": "images/pikmin/yellow_pikmin_leaf_5.png"
+  },
+  {
+    "name": "5 Yellow Pikmin Bud",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "yellow_pikmin_bud_5",
+    "img": "images/pikmin/yellow_pikmin_bud_5.png"
+  },
+  {
+    "name": "5 Yellow Pikmin Flower",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "yellow_pikmin_flower_5",
+    "img": "images/pikmin/yellow_pikmin_flower_5.png"
+  },
+
+  //////  Blue Pikmin  //////
+  //////  X1  //////
+
+  {
+    "name": "Blue Pikmin Leaf",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "blue_pikmin_Leaf",
+    "img": "images/pikmin/blue_pikmin_leaf_1.png"
+  },
+  {
+    "name": "Blue Pikmin Bud",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "blue_pikmin_bud",
+    "img": "images/pikmin/blue_pikmin_bud_1.png"
+  },
+  {
+    "name": "Blue Pikmin Flower",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "blue_pikmin_flower",
+    "img": "images/pikmin/blue_pikmin_flower_1.png"
+  },
+
+  //////  X5  //////
+  
+  {
+    "name": "5 Blue Pikmin Leaf",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "blue_pikmin_Leaf_5",
+    "img": "images/pikmin/blue_pikmin_leaf_5.png"
+  },
+  {
+    "name": "5 Blue Pikmin Bud",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "blue_pikmin_bud_5",
+    "img": "images/pikmin/blue_pikmin_bud_5.png"
+  },
+  {
+    "name": "5 Blue Pikmin Flower",
+    "type": "consumable",
+    "initial_quantity": 0,
+    "codes": "blue_pikmin_flower_5",
+    "img": "images/pikmin/blue_pikmin_flower_5.png"
   },
 
   //////  Option   //////
@@ -397,6 +504,22 @@
   "max_quantity": 100,
 	"codes": "red_pikmin_location",
 	"img": "images/pikmin/red_pikmin_leaf.png"
+  },
+  {
+	"name": "Yellow Pikmin Location",
+	"type": "consumable",
+  "initial_quantity": 0,
+  "max_quantity": 100,
+	"codes": "yellow_pikmin_location",
+	"img": "images/pikmin/yellow_pikmin_leaf.png"
+  },
+  {
+	"name": "Blue Pikmin Location",
+	"type": "consumable",
+  "initial_quantity": 0,
+  "max_quantity": 100,
+	"codes": "blue_pikmin_location",
+	"img": "images/pikmin/blue_pikmin_leaf.png"
   },
   {
 	"name": "Wall Location",
