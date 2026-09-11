@@ -361,7 +361,7 @@
         ]
       },
       {
-          "name": "Red Pikmin: 21-30",
+        "name": "Red Pikmin: 21-30",
         "sections": [
           {
             "name": "Red Pikmin: 21",
@@ -564,7 +564,7 @@
         ]
       },
       {
-          "name": "Red Pikmin: 31-40",
+        "name": "Red Pikmin: 31-40",
         "sections": [
           {
             "name": "Red Pikmin: 31",
@@ -771,7 +771,7 @@
         ]
       },
       {
-          "name": "Red Pikmin: 41-50",
+        "name": "Red Pikmin: 41-50",
         "sections": [
           {
             "name": "Red Pikmin: 41",
@@ -982,7 +982,7 @@
         ]
       },
       {
-          "name": "Red Pikmin: 51-60",
+        "name": "Red Pikmin: 51-60",
         "sections": [
           {
             "name": "Red Pikmin: 51",
@@ -2102,7 +2102,7 @@
           {
             "name": "Yellow Pikmin: 1",
             "access_rules": [
-              "$yellow_pikmin_location_is|1"
+              "$yellow_pikmin_location_is|1, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1"
@@ -2114,8 +2114,8 @@
           {
             "name": "Yellow Pikmin: 2",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2128,8 +2128,8 @@
           {
             "name": "Yellow Pikmin: 3",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2142,9 +2142,9 @@
           {
             "name": "Yellow Pikmin: 4",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2158,8 +2158,8 @@
           {
             "name": "Yellow Pikmin: 5",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2172,10 +2172,10 @@
           {
             "name": "Yellow Pikmin: 6",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|6"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2190,8 +2190,8 @@
           {
             "name": "Yellow Pikmin: 7",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|7"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2204,10 +2204,10 @@
           {
             "name": "Yellow Pikmin: 8",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|8"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2222,9 +2222,9 @@
           {
             "name": "Yellow Pikmin: 9",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|9"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2238,10 +2238,10 @@
           {
             "name": "Yellow Pikmin: 10",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|10"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2269,8 +2269,8 @@
           {
             "name": "Yellow Pikmin: 11",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|11"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2283,12 +2283,12 @@
           {
             "name": "Yellow Pikmin: 12",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|12"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2305,8 +2305,8 @@
           {
             "name": "Yellow Pikmin: 13",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|13"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2319,10 +2319,10 @@
           {
             "name": "Yellow Pikmin: 14",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|14"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2337,10 +2337,10 @@
           {
             "name": "Yellow Pikmin: 15",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|15"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|15, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2355,11 +2355,11 @@
           {
             "name": "Yellow Pikmin: 16",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|16"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|16, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2375,8 +2375,8 @@
           {
             "name": "Yellow Pikmin: 17",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|17"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|17, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2389,12 +2389,12 @@
           {
             "name": "Yellow Pikmin: 18",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|18"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|18, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2411,8 +2411,8 @@
           {
             "name": "Yellow Pikmin: 19",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|19"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|19, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2425,12 +2425,12 @@
           {
             "name": "Yellow Pikmin: 20",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|20"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|20, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2455,15 +2455,15 @@
         ]
       },
       {
-          "name": "Yellow Pikmin: 21-30",
+        "name": "Yellow Pikmin: 21-30",
         "sections": [
           {
             "name": "Yellow Pikmin: 21",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|21"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|21, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2478,10 +2478,10 @@
           {
             "name": "Yellow Pikmin: 22",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|22"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|22, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2496,8 +2496,8 @@
           {
             "name": "Yellow Pikmin: 23",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|23"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|23, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2510,14 +2510,14 @@
           {
             "name": "Yellow Pikmin: 24",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|24"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|24, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2536,9 +2536,9 @@
           {
             "name": "Yellow Pikmin: 25",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|25"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|25, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2552,10 +2552,10 @@
           {
             "name": "Yellow Pikmin: 26",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|13",
-              "$yellow_pikmin_location_is|26"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1",
+              "$yellow_pikmin_location_is|26, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2570,10 +2570,10 @@
           {
             "name": "Yellow Pikmin: 27",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|27"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|27, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2588,12 +2588,12 @@
           {
             "name": "Yellow Pikmin: 28",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|14",
-              "$yellow_pikmin_location_is|28"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1",
+              "$yellow_pikmin_location_is|28, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2610,8 +2610,8 @@
           {
             "name": "Yellow Pikmin: 29",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|29"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|29, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2624,14 +2624,14 @@
           {
             "name": "Yellow Pikmin: 30",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|15",
-              "$yellow_pikmin_location_is|30"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|15, ship_part_total:1",
+              "$yellow_pikmin_location_is|30, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2658,13 +2658,13 @@
         ]
       },
       {
-          "name": "Yellow Pikmin: 31-40",
+        "name": "Yellow Pikmin: 31-40",
         "sections": [
           {
             "name": "Yellow Pikmin: 31",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|31"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|31, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2677,12 +2677,12 @@
           {
             "name": "Yellow Pikmin: 32",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|16",
-              "$yellow_pikmin_location_is|32"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|16, ship_part_total:1",
+              "$yellow_pikmin_location_is|32, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2699,10 +2699,10 @@
           {
             "name": "Yellow Pikmin: 33",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|33"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|33, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2717,10 +2717,10 @@
           {
             "name": "Yellow Pikmin: 34",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|17",
-              "$yellow_pikmin_location_is|34"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|17, ship_part_total:1",
+              "$yellow_pikmin_location_is|34, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2735,10 +2735,10 @@
           {
             "name": "Yellow Pikmin: 35",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|35"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|35, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2753,15 +2753,15 @@
           {
             "name": "Yellow Pikmin: 36",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|18",
-              "$yellow_pikmin_location_is|36"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|18, ship_part_total:1",
+              "$yellow_pikmin_location_is|36, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2781,8 +2781,8 @@
           {
             "name": "Yellow Pikmin: 37",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|37"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|37, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2795,10 +2795,10 @@
           {
             "name": "Yellow Pikmin: 38",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|19",
-              "$yellow_pikmin_location_is|38"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|19, ship_part_total:1",
+              "$yellow_pikmin_location_is|38, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2813,10 +2813,10 @@
           {
             "name": "Yellow Pikmin: 39",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|13",
-              "$yellow_pikmin_location_is|39"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1",
+              "$yellow_pikmin_location_is|39, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2831,14 +2831,14 @@
           {
             "name": "Yellow Pikmin: 40",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|20",
-              "$yellow_pikmin_location_is|40"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|20, ship_part_total:1",
+              "$yellow_pikmin_location_is|40, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2865,13 +2865,13 @@
         ]
       },
       {
-          "name": "Yellow Pikmin: 41-50",
+        "name": "Yellow Pikmin: 41-50",
         "sections": [
           {
             "name": "Yellow Pikmin: 41",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|41"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|41, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2884,14 +2884,14 @@
           {
             "name": "Yellow Pikmin: 42",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|14",
-              "$yellow_pikmin_location_is|21",
-              "$yellow_pikmin_location_is|42"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1",
+              "$yellow_pikmin_location_is|21, ship_part_total:1",
+              "$yellow_pikmin_location_is|42, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2910,8 +2910,8 @@
           {
             "name": "Yellow Pikmin: 43",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|43"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|43, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2924,12 +2924,12 @@
           {
             "name": "Yellow Pikmin: 44",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|22",
-              "$yellow_pikmin_location_is|44"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|22, ship_part_total:1",
+              "$yellow_pikmin_location_is|44, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2946,12 +2946,12 @@
           {
             "name": "Yellow Pikmin: 45",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|15",
-              "$yellow_pikmin_location_is|45"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|15, ship_part_total:1",
+              "$yellow_pikmin_location_is|45, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2968,10 +2968,10 @@
           {
             "name": "Yellow Pikmin: 46",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|23",
-              "$yellow_pikmin_location_is|46"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|23, ship_part_total:1",
+              "$yellow_pikmin_location_is|46, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -2986,8 +2986,8 @@
           {
             "name": "Yellow Pikmin: 47",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|47"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|47, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3000,16 +3000,16 @@
           {
             "name": "Yellow Pikmin: 48",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|16",
-              "$yellow_pikmin_location_is|24",
-              "$yellow_pikmin_location_is|48"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|16, ship_part_total:1",
+              "$yellow_pikmin_location_is|24, ship_part_total:1",
+              "$yellow_pikmin_location_is|48, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3030,9 +3030,9 @@
           {
             "name": "Yellow Pikmin: 49",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|49"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|49, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3046,12 +3046,12 @@
           {
             "name": "Yellow Pikmin: 50",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|25",
-              "$yellow_pikmin_location_is|50"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|25, ship_part_total:1",
+              "$yellow_pikmin_location_is|50, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3076,15 +3076,15 @@
         ]
       },
       {
-          "name": "Yellow Pikmin: 51-60",
+        "name": "Yellow Pikmin: 51-60",
         "sections": [
           {
             "name": "Yellow Pikmin: 51",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|17",
-              "$yellow_pikmin_location_is|51"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|17, ship_part_total:1",
+              "$yellow_pikmin_location_is|51, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3099,12 +3099,12 @@
           {
             "name": "Yellow Pikmin: 52",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|13",
-              "$yellow_pikmin_location_is|26",
-              "$yellow_pikmin_location_is|52"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1",
+              "$yellow_pikmin_location_is|26, ship_part_total:1",
+              "$yellow_pikmin_location_is|52, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3121,8 +3121,8 @@
           {
             "name": "Yellow Pikmin: 53",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|53"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|53, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3135,14 +3135,14 @@
           {
             "name": "Yellow Pikmin: 54",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|18",
-              "$yellow_pikmin_location_is|27",
-              "$yellow_pikmin_location_is|54"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|18, ship_part_total:1",
+              "$yellow_pikmin_location_is|27, ship_part_total:1",
+              "$yellow_pikmin_location_is|54, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3161,10 +3161,10 @@
           {
             "name": "Yellow Pikmin: 55",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|55"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|55, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3179,14 +3179,14 @@
           {
             "name": "Yellow Pikmin: 56",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|14",
-              "$yellow_pikmin_location_is|28",
-              "$yellow_pikmin_location_is|56"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1",
+              "$yellow_pikmin_location_is|28, ship_part_total:1",
+              "$yellow_pikmin_location_is|56, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3205,10 +3205,10 @@
           {
             "name": "Yellow Pikmin: 57",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|19",
-              "$yellow_pikmin_location_is|57"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|19, ship_part_total:1",
+              "$yellow_pikmin_location_is|57, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3223,10 +3223,10 @@
           {
             "name": "Yellow Pikmin: 58",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|29",
-              "$yellow_pikmin_location_is|58"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|29, ship_part_total:1",
+              "$yellow_pikmin_location_is|58, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3241,8 +3241,8 @@
           {
             "name": "Yellow Pikmin: 59",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|59"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|59, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3255,18 +3255,18 @@
           {
             "name": "Yellow Pikmin: 60",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|15",
-              "$yellow_pikmin_location_is|20",
-              "$yellow_pikmin_location_is|30",
-              "$yellow_pikmin_location_is|60"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|15, ship_part_total:1",
+              "$yellow_pikmin_location_is|20, ship_part_total:1",
+              "$yellow_pikmin_location_is|30, ship_part_total:1",
+              "$yellow_pikmin_location_is|60, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3302,8 +3302,8 @@
           {
             "name": "Yellow Pikmin: 61",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|61"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|61, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3316,10 +3316,10 @@
           {
             "name": "Yellow Pikmin: 62",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|31",
-              "$yellow_pikmin_location_is|62"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|31, ship_part_total:1",
+              "$yellow_pikmin_location_is|62, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3334,12 +3334,12 @@
           {
             "name": "Yellow Pikmin: 63",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|21",
-              "$yellow_pikmin_location_is|63"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|21, ship_part_total:1",
+              "$yellow_pikmin_location_is|63, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3356,13 +3356,13 @@
           {
             "name": "Yellow Pikmin: 64",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|16",
-              "$yellow_pikmin_location_is|32",
-              "$yellow_pikmin_location_is|64"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|16, ship_part_total:1",
+              "$yellow_pikmin_location_is|32, ship_part_total:1",
+              "$yellow_pikmin_location_is|64, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3380,10 +3380,10 @@
           {
             "name": "Yellow Pikmin: 65",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|13",
-              "$yellow_pikmin_location_is|65"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1",
+              "$yellow_pikmin_location_is|65, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3398,14 +3398,14 @@
           {
             "name": "Yellow Pikmin: 66",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|22",
-              "$yellow_pikmin_location_is|33",
-              "$yellow_pikmin_location_is|66"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|22, ship_part_total:1",
+              "$yellow_pikmin_location_is|33, ship_part_total:1",
+              "$yellow_pikmin_location_is|66, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3424,8 +3424,8 @@
           {
             "name": "Yellow Pikmin: 67",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|67"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|67, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3438,12 +3438,12 @@
           {
             "name": "Yellow Pikmin: 68",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|17",
-              "$yellow_pikmin_location_is|34",
-              "$yellow_pikmin_location_is|68"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|17, ship_part_total:1",
+              "$yellow_pikmin_location_is|34, ship_part_total:1",
+              "$yellow_pikmin_location_is|68, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3460,10 +3460,10 @@
           {
             "name": "Yellow Pikmin: 69",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|23",
-              "$yellow_pikmin_location_is|69"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|23, ship_part_total:1",
+              "$yellow_pikmin_location_is|69, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3478,14 +3478,14 @@
           {
             "name": "Yellow Pikmin: 70",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|14",
-              "$yellow_pikmin_location_is|35",
-              "$yellow_pikmin_location_is|70"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1",
+              "$yellow_pikmin_location_is|35, ship_part_total:1",
+              "$yellow_pikmin_location_is|70, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3517,8 +3517,8 @@
           {
             "name": "Yellow Pikmin: 71",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|71"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|71, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3531,18 +3531,18 @@
           {
             "name": "Yellow Pikmin: 72",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|18",
-              "$yellow_pikmin_location_is|24",
-              "$yellow_pikmin_location_is|36",
-              "$yellow_pikmin_location_is|72"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|18, ship_part_total:1",
+              "$yellow_pikmin_location_is|24, ship_part_total:1",
+              "$yellow_pikmin_location_is|36, ship_part_total:1",
+              "$yellow_pikmin_location_is|72, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3565,8 +3565,8 @@
           {
             "name": "Yellow Pikmin: 73",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|73"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|73, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3579,10 +3579,10 @@
           {
             "name": "Yellow Pikmin: 74",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|37",
-              "$yellow_pikmin_location_is|74"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|37, ship_part_total:1",
+              "$yellow_pikmin_location_is|74, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3597,12 +3597,12 @@
           {
             "name": "Yellow Pikmin: 75",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|15",
-              "$yellow_pikmin_location_is|25",
-              "$yellow_pikmin_location_is|75"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|15, ship_part_total:1",
+              "$yellow_pikmin_location_is|25, ship_part_total:1",
+              "$yellow_pikmin_location_is|75, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3619,12 +3619,12 @@
           {
             "name": "Yellow Pikmin: 76",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|19",
-              "$yellow_pikmin_location_is|38",
-              "$yellow_pikmin_location_is|76"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|19, ship_part_total:1",
+              "$yellow_pikmin_location_is|38, ship_part_total:1",
+              "$yellow_pikmin_location_is|76, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3641,10 +3641,10 @@
           {
             "name": "Yellow Pikmin: 77",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|77"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|77, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3659,14 +3659,14 @@
           {
             "name": "Yellow Pikmin: 78",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|13",
-              "$yellow_pikmin_location_is|26",
-              "$yellow_pikmin_location_is|39",
-              "$yellow_pikmin_location_is|78"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1",
+              "$yellow_pikmin_location_is|26, ship_part_total:1",
+              "$yellow_pikmin_location_is|39, ship_part_total:1",
+              "$yellow_pikmin_location_is|78, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3685,8 +3685,8 @@
           {
             "name": "Yellow Pikmin: 79",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|79"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|79, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3699,16 +3699,16 @@
           {
             "name": "Yellow Pikmin: 80",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|16",
-              "$yellow_pikmin_location_is|20",
-              "$yellow_pikmin_location_is|40",
-              "$yellow_pikmin_location_is|80"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|16, ship_part_total:1",
+              "$yellow_pikmin_location_is|20, ship_part_total:1",
+              "$yellow_pikmin_location_is|40, ship_part_total:1",
+              "$yellow_pikmin_location_is|80, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3742,11 +3742,11 @@
           {
             "name": "Yellow Pikmin: 81",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|27",
-              "$yellow_pikmin_location_is|81"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|27, ship_part_total:1",
+              "$yellow_pikmin_location_is|81, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3762,10 +3762,10 @@
           {
             "name": "Yellow Pikmin: 82",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|41",
-              "$yellow_pikmin_location_is|82"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|41, ship_part_total:1",
+              "$yellow_pikmin_location_is|82, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3780,8 +3780,8 @@
           {
             "name": "Yellow Pikmin: 83",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|83"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|83, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3794,18 +3794,18 @@
           {
             "name": "Yellow Pikmin: 84",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|14",
-              "$yellow_pikmin_location_is|21",
-              "$yellow_pikmin_location_is|28",
-              "$yellow_pikmin_location_is|42",
-              "$yellow_pikmin_location_is|84"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1",
+              "$yellow_pikmin_location_is|21, ship_part_total:1",
+              "$yellow_pikmin_location_is|28, ship_part_total:1",
+              "$yellow_pikmin_location_is|42, ship_part_total:1",
+              "$yellow_pikmin_location_is|84, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3828,10 +3828,10 @@
           {
             "name": "Yellow Pikmin: 85",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|17",
-              "$yellow_pikmin_location_is|85"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|17, ship_part_total:1",
+              "$yellow_pikmin_location_is|85, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3846,10 +3846,10 @@
           {
             "name": "Yellow Pikmin: 86",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|43",
-              "$yellow_pikmin_location_is|86"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|43, ship_part_total:1",
+              "$yellow_pikmin_location_is|86, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3864,10 +3864,10 @@
           {
             "name": "Yellow Pikmin: 87",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|29",
-              "$yellow_pikmin_location_is|87"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|29, ship_part_total:1",
+              "$yellow_pikmin_location_is|87, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3882,14 +3882,14 @@
           {
             "name": "Yellow Pikmin: 88",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|22",
-              "$yellow_pikmin_location_is|44",
-              "$yellow_pikmin_location_is|88"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|22, ship_part_total:1",
+              "$yellow_pikmin_location_is|44, ship_part_total:1",
+              "$yellow_pikmin_location_is|88, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3908,8 +3908,8 @@
           {
             "name": "Yellow Pikmin: 89",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|89"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|89, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3922,18 +3922,18 @@
           {
             "name": "Yellow Pikmin: 90",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|15",
-              "$yellow_pikmin_location_is|18",
-              "$yellow_pikmin_location_is|30",
-              "$yellow_pikmin_location_is|45",
-              "$yellow_pikmin_location_is|90"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|15, ship_part_total:1",
+              "$yellow_pikmin_location_is|18, ship_part_total:1",
+              "$yellow_pikmin_location_is|30, ship_part_total:1",
+              "$yellow_pikmin_location_is|45, ship_part_total:1",
+              "$yellow_pikmin_location_is|90, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3969,10 +3969,10 @@
           {
             "name": "Yellow Pikmin: 91",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|13",
-              "$yellow_pikmin_location_is|91"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|13, ship_part_total:1",
+              "$yellow_pikmin_location_is|91, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -3987,12 +3987,12 @@
           {
             "name": "Yellow Pikmin: 92",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|23",
-              "$yellow_pikmin_location_is|46",
-              "$yellow_pikmin_location_is|92"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|23, ship_part_total:1",
+              "$yellow_pikmin_location_is|46, ship_part_total:1",
+              "$yellow_pikmin_location_is|92, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4009,10 +4009,10 @@
           {
             "name": "Yellow Pikmin: 93",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|31",
-              "$yellow_pikmin_location_is|93"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|31, ship_part_total:1",
+              "$yellow_pikmin_location_is|93, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4027,10 +4027,10 @@
           {
             "name": "Yellow Pikmin: 94",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|47",
-              "$yellow_pikmin_location_is|94"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|47, ship_part_total:1",
+              "$yellow_pikmin_location_is|94, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4045,10 +4045,10 @@
           {
             "name": "Yellow Pikmin: 95",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|19",
-              "$yellow_pikmin_location_is|95"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|19, ship_part_total:1",
+              "$yellow_pikmin_location_is|95, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4063,18 +4063,18 @@
           {
             "name": "Yellow Pikmin: 96",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|6",
-              "$yellow_pikmin_location_is|8",
-              "$yellow_pikmin_location_is|12",
-              "$yellow_pikmin_location_is|16",
-              "$yellow_pikmin_location_is|24",
-              "$yellow_pikmin_location_is|32",
-              "$yellow_pikmin_location_is|48",
-              "$yellow_pikmin_location_is|96"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|6, ship_part_total:1",
+              "$yellow_pikmin_location_is|8, ship_part_total:1",
+              "$yellow_pikmin_location_is|12, ship_part_total:1",
+              "$yellow_pikmin_location_is|16, ship_part_total:1",
+              "$yellow_pikmin_location_is|24, ship_part_total:1",
+              "$yellow_pikmin_location_is|32, ship_part_total:1",
+              "$yellow_pikmin_location_is|48, ship_part_total:1",
+              "$yellow_pikmin_location_is|96, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4097,8 +4097,8 @@
           {
             "name": "Yellow Pikmin: 97",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|97"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|97, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4111,12 +4111,12 @@
           {
             "name": "Yellow Pikmin: 98",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|7",
-              "$yellow_pikmin_location_is|14",
-              "$yellow_pikmin_location_is|49",
-              "$yellow_pikmin_location_is|98"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|7, ship_part_total:1",
+              "$yellow_pikmin_location_is|14, ship_part_total:1",
+              "$yellow_pikmin_location_is|49, ship_part_total:1",
+              "$yellow_pikmin_location_is|98, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4133,12 +4133,12 @@
           {
             "name": "Yellow Pikmin: 99",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|3",
-              "$yellow_pikmin_location_is|9",
-              "$yellow_pikmin_location_is|11",
-              "$yellow_pikmin_location_is|33",
-              "$yellow_pikmin_location_is|99"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|3, ship_part_total:1",
+              "$yellow_pikmin_location_is|9, ship_part_total:1",
+              "$yellow_pikmin_location_is|11, ship_part_total:1",
+              "$yellow_pikmin_location_is|33, ship_part_total:1",
+              "$yellow_pikmin_location_is|99, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4155,15 +4155,15 @@
           {
             "name": "Yellow Pikmin: 100",
             "access_rules": [
-              "$yellow_pikmin_location_is|1",
-              "$yellow_pikmin_location_is|2",
-              "$yellow_pikmin_location_is|4",
-              "$yellow_pikmin_location_is|5",
-              "$yellow_pikmin_location_is|10",
-              "$yellow_pikmin_location_is|20",
-              "$yellow_pikmin_location_is|25",
-              "$yellow_pikmin_location_is|50",
-              "$yellow_pikmin_location_is|100"
+              "$yellow_pikmin_location_is|1, ship_part_total:1",
+              "$yellow_pikmin_location_is|2, ship_part_total:1",
+              "$yellow_pikmin_location_is|4, ship_part_total:1",
+              "$yellow_pikmin_location_is|5, ship_part_total:1",
+              "$yellow_pikmin_location_is|10, ship_part_total:1",
+              "$yellow_pikmin_location_is|20, ship_part_total:1",
+              "$yellow_pikmin_location_is|25, ship_part_total:1",
+              "$yellow_pikmin_location_is|50, ship_part_total:1",
+              "$yellow_pikmin_location_is|100, ship_part_total:1"
             ],
             "visibility_rules": [
               "$yellow_pikmin_location_is|1",
@@ -4189,14 +4189,14 @@
             "size": 10
           }
         ]
-        },
-        {
+      },
+      {
         "name": "Blue Pikmin: 1-10",
         "sections": [
           {
             "name": "Blue Pikmin: 1",
             "access_rules": [
-              "$blue_pikmin_location_is|1"
+              "$blue_pikmin_location_is|1, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1"
@@ -4208,8 +4208,8 @@
           {
             "name": "Blue Pikmin: 2",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4222,8 +4222,8 @@
           {
             "name": "Blue Pikmin: 3",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4236,9 +4236,9 @@
           {
             "name": "Blue Pikmin: 4",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4252,8 +4252,8 @@
           {
             "name": "Blue Pikmin: 5",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4266,10 +4266,10 @@
           {
             "name": "Blue Pikmin: 6",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|6"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4284,8 +4284,8 @@
           {
             "name": "Blue Pikmin: 7",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|7"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4298,10 +4298,10 @@
           {
             "name": "Blue Pikmin: 8",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|8"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4316,9 +4316,9 @@
           {
             "name": "Blue Pikmin: 9",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|9"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4332,10 +4332,10 @@
           {
             "name": "Blue Pikmin: 10",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|10"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4363,8 +4363,8 @@
           {
             "name": "Blue Pikmin: 11",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|11"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4377,12 +4377,12 @@
           {
             "name": "Blue Pikmin: 12",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|12"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4399,8 +4399,8 @@
           {
             "name": "Blue Pikmin: 13",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|13"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4413,10 +4413,10 @@
           {
             "name": "Blue Pikmin: 14",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|14"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4431,10 +4431,10 @@
           {
             "name": "Blue Pikmin: 15",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|15"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|15, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4449,11 +4449,11 @@
           {
             "name": "Blue Pikmin: 16",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|16"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|16, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4469,8 +4469,8 @@
           {
             "name": "Blue Pikmin: 17",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|17"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|17, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4483,12 +4483,12 @@
           {
             "name": "Blue Pikmin: 18",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|18"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|18, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4505,8 +4505,8 @@
           {
             "name": "Blue Pikmin: 19",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|19"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|19, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4519,12 +4519,12 @@
           {
             "name": "Blue Pikmin: 20",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|20"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|20, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4549,15 +4549,15 @@
         ]
       },
       {
-          "name": "Blue Pikmin: 21-30",
+        "name": "Blue Pikmin: 21-30",
         "sections": [
           {
             "name": "Blue Pikmin: 21",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|21"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|21, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4572,10 +4572,10 @@
           {
             "name": "Blue Pikmin: 22",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|22"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|22, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4590,8 +4590,8 @@
           {
             "name": "Blue Pikmin: 23",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|23"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|23, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4604,14 +4604,14 @@
           {
             "name": "Blue Pikmin: 24",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|24"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|24, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4630,9 +4630,9 @@
           {
             "name": "Blue Pikmin: 25",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|25"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|25, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4646,10 +4646,10 @@
           {
             "name": "Blue Pikmin: 26",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|13",
-              "$blue_pikmin_location_is|26"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5",
+              "$blue_pikmin_location_is|26, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4664,10 +4664,10 @@
           {
             "name": "Blue Pikmin: 27",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|27"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|27, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4682,12 +4682,12 @@
           {
             "name": "Blue Pikmin: 28",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|14",
-              "$blue_pikmin_location_is|28"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5",
+              "$blue_pikmin_location_is|28, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4704,8 +4704,8 @@
           {
             "name": "Blue Pikmin: 29",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|29"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|29, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4718,14 +4718,14 @@
           {
             "name": "Blue Pikmin: 30",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|15",
-              "$blue_pikmin_location_is|30"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|15, ship_part_total:5",
+              "$blue_pikmin_location_is|30, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4752,13 +4752,13 @@
         ]
       },
       {
-          "name": "Blue Pikmin: 31-40",
+        "name": "Blue Pikmin: 31-40",
         "sections": [
           {
             "name": "Blue Pikmin: 31",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|31"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|31, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4771,12 +4771,12 @@
           {
             "name": "Blue Pikmin: 32",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|16",
-              "$blue_pikmin_location_is|32"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|16, ship_part_total:5",
+              "$blue_pikmin_location_is|32, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4793,10 +4793,10 @@
           {
             "name": "Blue Pikmin: 33",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|33"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|33, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4811,10 +4811,10 @@
           {
             "name": "Blue Pikmin: 34",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|17",
-              "$blue_pikmin_location_is|34"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|17, ship_part_total:5",
+              "$blue_pikmin_location_is|34, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4829,10 +4829,10 @@
           {
             "name": "Blue Pikmin: 35",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|35"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|35, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4847,15 +4847,15 @@
           {
             "name": "Blue Pikmin: 36",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|18",
-              "$blue_pikmin_location_is|36"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|18, ship_part_total:5",
+              "$blue_pikmin_location_is|36, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4875,8 +4875,8 @@
           {
             "name": "Blue Pikmin: 37",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|37"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|37, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4889,10 +4889,10 @@
           {
             "name": "Blue Pikmin: 38",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|19",
-              "$blue_pikmin_location_is|38"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|19, ship_part_total:5",
+              "$blue_pikmin_location_is|38, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4907,10 +4907,10 @@
           {
             "name": "Blue Pikmin: 39",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|13",
-              "$blue_pikmin_location_is|39"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5",
+              "$blue_pikmin_location_is|39, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4925,14 +4925,14 @@
           {
             "name": "Blue Pikmin: 40",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|20",
-              "$blue_pikmin_location_is|40"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|20, ship_part_total:5",
+              "$blue_pikmin_location_is|40, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4959,13 +4959,13 @@
         ]
       },
       {
-          "name": "Blue Pikmin: 41-50",
+        "name": "Blue Pikmin: 41-50",
         "sections": [
           {
             "name": "Blue Pikmin: 41",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|41"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|41, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -4978,14 +4978,14 @@
           {
             "name": "Blue Pikmin: 42",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|14",
-              "$blue_pikmin_location_is|21",
-              "$blue_pikmin_location_is|42"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5",
+              "$blue_pikmin_location_is|21, ship_part_total:5",
+              "$blue_pikmin_location_is|42, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5004,8 +5004,8 @@
           {
             "name": "Blue Pikmin: 43",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|43"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|43, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5018,12 +5018,12 @@
           {
             "name": "Blue Pikmin: 44",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|22",
-              "$blue_pikmin_location_is|44"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|22, ship_part_total:5",
+              "$blue_pikmin_location_is|44, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5040,12 +5040,12 @@
           {
             "name": "Blue Pikmin: 45",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|15",
-              "$blue_pikmin_location_is|45"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|15, ship_part_total:5",
+              "$blue_pikmin_location_is|45, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5062,10 +5062,10 @@
           {
             "name": "Blue Pikmin: 46",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|23",
-              "$blue_pikmin_location_is|46"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|23, ship_part_total:5",
+              "$blue_pikmin_location_is|46, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5080,8 +5080,8 @@
           {
             "name": "Blue Pikmin: 47",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|47"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|47, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5094,16 +5094,16 @@
           {
             "name": "Blue Pikmin: 48",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|16",
-              "$blue_pikmin_location_is|24",
-              "$blue_pikmin_location_is|48"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|16, ship_part_total:5",
+              "$blue_pikmin_location_is|24, ship_part_total:5",
+              "$blue_pikmin_location_is|48, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5124,9 +5124,9 @@
           {
             "name": "Blue Pikmin: 49",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|49"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|49, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5140,12 +5140,12 @@
           {
             "name": "Blue Pikmin: 50",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|25",
-              "$blue_pikmin_location_is|50"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|25, ship_part_total:5",
+              "$blue_pikmin_location_is|50, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5170,15 +5170,15 @@
         ]
       },
       {
-          "name": "Blue Pikmin: 51-60",
+        "name": "Blue Pikmin: 51-60",
         "sections": [
           {
             "name": "Blue Pikmin: 51",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|17",
-              "$blue_pikmin_location_is|51"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|17, ship_part_total:5",
+              "$blue_pikmin_location_is|51, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5193,12 +5193,12 @@
           {
             "name": "Blue Pikmin: 52",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|13",
-              "$blue_pikmin_location_is|26",
-              "$blue_pikmin_location_is|52"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5",
+              "$blue_pikmin_location_is|26, ship_part_total:5",
+              "$blue_pikmin_location_is|52, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5215,8 +5215,8 @@
           {
             "name": "Blue Pikmin: 53",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|53"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|53, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5229,14 +5229,14 @@
           {
             "name": "Blue Pikmin: 54",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|18",
-              "$blue_pikmin_location_is|27",
-              "$blue_pikmin_location_is|54"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|18, ship_part_total:5",
+              "$blue_pikmin_location_is|27, ship_part_total:5",
+              "$blue_pikmin_location_is|54, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5255,10 +5255,10 @@
           {
             "name": "Blue Pikmin: 55",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|55"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|55, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5273,14 +5273,14 @@
           {
             "name": "Blue Pikmin: 56",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|14",
-              "$blue_pikmin_location_is|28",
-              "$blue_pikmin_location_is|56"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5",
+              "$blue_pikmin_location_is|28, ship_part_total:5",
+              "$blue_pikmin_location_is|56, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5299,10 +5299,10 @@
           {
             "name": "Blue Pikmin: 57",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|19",
-              "$blue_pikmin_location_is|57"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|19, ship_part_total:5",
+              "$blue_pikmin_location_is|57, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5317,10 +5317,10 @@
           {
             "name": "Blue Pikmin: 58",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|29",
-              "$blue_pikmin_location_is|58"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|29, ship_part_total:5",
+              "$blue_pikmin_location_is|58, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5335,8 +5335,8 @@
           {
             "name": "Blue Pikmin: 59",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|59"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|59, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5349,18 +5349,18 @@
           {
             "name": "Blue Pikmin: 60",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|15",
-              "$blue_pikmin_location_is|20",
-              "$blue_pikmin_location_is|30",
-              "$blue_pikmin_location_is|60"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|15, ship_part_total:5",
+              "$blue_pikmin_location_is|20, ship_part_total:5",
+              "$blue_pikmin_location_is|30, ship_part_total:5",
+              "$blue_pikmin_location_is|60, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5396,8 +5396,8 @@
           {
             "name": "Blue Pikmin: 61",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|61"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|61, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5410,10 +5410,10 @@
           {
             "name": "Blue Pikmin: 62",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|31",
-              "$blue_pikmin_location_is|62"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|31, ship_part_total:5",
+              "$blue_pikmin_location_is|62, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5428,12 +5428,12 @@
           {
             "name": "Blue Pikmin: 63",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|21",
-              "$blue_pikmin_location_is|63"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|21, ship_part_total:5",
+              "$blue_pikmin_location_is|63, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5450,13 +5450,13 @@
           {
             "name": "Blue Pikmin: 64",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|16",
-              "$blue_pikmin_location_is|32",
-              "$blue_pikmin_location_is|64"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|16, ship_part_total:5",
+              "$blue_pikmin_location_is|32, ship_part_total:5",
+              "$blue_pikmin_location_is|64, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5474,10 +5474,10 @@
           {
             "name": "Blue Pikmin: 65",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|13",
-              "$blue_pikmin_location_is|65"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5",
+              "$blue_pikmin_location_is|65, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5492,14 +5492,14 @@
           {
             "name": "Blue Pikmin: 66",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|22",
-              "$blue_pikmin_location_is|33",
-              "$blue_pikmin_location_is|66"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|22, ship_part_total:5",
+              "$blue_pikmin_location_is|33, ship_part_total:5",
+              "$blue_pikmin_location_is|66, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5518,8 +5518,8 @@
           {
             "name": "Blue Pikmin: 67",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|67"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|67, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5532,12 +5532,12 @@
           {
             "name": "Blue Pikmin: 68",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|17",
-              "$blue_pikmin_location_is|34",
-              "$blue_pikmin_location_is|68"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|17, ship_part_total:5",
+              "$blue_pikmin_location_is|34, ship_part_total:5",
+              "$blue_pikmin_location_is|68, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5554,10 +5554,10 @@
           {
             "name": "Blue Pikmin: 69",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|23",
-              "$blue_pikmin_location_is|69"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|23, ship_part_total:5",
+              "$blue_pikmin_location_is|69, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5572,14 +5572,14 @@
           {
             "name": "Blue Pikmin: 70",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|14",
-              "$blue_pikmin_location_is|35",
-              "$blue_pikmin_location_is|70"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5",
+              "$blue_pikmin_location_is|35, ship_part_total:5",
+              "$blue_pikmin_location_is|70, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5611,8 +5611,8 @@
           {
             "name": "Blue Pikmin: 71",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|71"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|71, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5625,18 +5625,18 @@
           {
             "name": "Blue Pikmin: 72",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|18",
-              "$blue_pikmin_location_is|24",
-              "$blue_pikmin_location_is|36",
-              "$blue_pikmin_location_is|72"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|18, ship_part_total:5",
+              "$blue_pikmin_location_is|24, ship_part_total:5",
+              "$blue_pikmin_location_is|36, ship_part_total:5",
+              "$blue_pikmin_location_is|72, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5659,8 +5659,8 @@
           {
             "name": "Blue Pikmin: 73",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|73"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|73, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5673,10 +5673,10 @@
           {
             "name": "Blue Pikmin: 74",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|37",
-              "$blue_pikmin_location_is|74"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|37, ship_part_total:5",
+              "$blue_pikmin_location_is|74, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5691,12 +5691,12 @@
           {
             "name": "Blue Pikmin: 75",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|15",
-              "$blue_pikmin_location_is|25",
-              "$blue_pikmin_location_is|75"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|15, ship_part_total:5",
+              "$blue_pikmin_location_is|25, ship_part_total:5",
+              "$blue_pikmin_location_is|75, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5713,12 +5713,12 @@
           {
             "name": "Blue Pikmin: 76",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|19",
-              "$blue_pikmin_location_is|38",
-              "$blue_pikmin_location_is|76"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|19, ship_part_total:5",
+              "$blue_pikmin_location_is|38, ship_part_total:5",
+              "$blue_pikmin_location_is|76, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5735,10 +5735,10 @@
           {
             "name": "Blue Pikmin: 77",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|77"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|77, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5753,14 +5753,14 @@
           {
             "name": "Blue Pikmin: 78",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|13",
-              "$blue_pikmin_location_is|26",
-              "$blue_pikmin_location_is|39",
-              "$blue_pikmin_location_is|78"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5",
+              "$blue_pikmin_location_is|26, ship_part_total:5",
+              "$blue_pikmin_location_is|39, ship_part_total:5",
+              "$blue_pikmin_location_is|78, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5779,8 +5779,8 @@
           {
             "name": "Blue Pikmin: 79",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|79"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|79, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5793,16 +5793,16 @@
           {
             "name": "Blue Pikmin: 80",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|16",
-              "$blue_pikmin_location_is|20",
-              "$blue_pikmin_location_is|40",
-              "$blue_pikmin_location_is|80"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|16, ship_part_total:5",
+              "$blue_pikmin_location_is|20, ship_part_total:5",
+              "$blue_pikmin_location_is|40, ship_part_total:5",
+              "$blue_pikmin_location_is|80, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5836,11 +5836,11 @@
           {
             "name": "Blue Pikmin: 81",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|27",
-              "$blue_pikmin_location_is|81"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|27, ship_part_total:5",
+              "$blue_pikmin_location_is|81, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5856,10 +5856,10 @@
           {
             "name": "Blue Pikmin: 82",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|41",
-              "$blue_pikmin_location_is|82"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|41, ship_part_total:5",
+              "$blue_pikmin_location_is|82, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5874,8 +5874,8 @@
           {
             "name": "Blue Pikmin: 83",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|83"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|83, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5888,18 +5888,18 @@
           {
             "name": "Blue Pikmin: 84",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|14",
-              "$blue_pikmin_location_is|21",
-              "$blue_pikmin_location_is|28",
-              "$blue_pikmin_location_is|42",
-              "$blue_pikmin_location_is|84"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5",
+              "$blue_pikmin_location_is|21, ship_part_total:5",
+              "$blue_pikmin_location_is|28, ship_part_total:5",
+              "$blue_pikmin_location_is|42, ship_part_total:5",
+              "$blue_pikmin_location_is|84, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5922,10 +5922,10 @@
           {
             "name": "Blue Pikmin: 85",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|17",
-              "$blue_pikmin_location_is|85"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|17, ship_part_total:5",
+              "$blue_pikmin_location_is|85, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5940,10 +5940,10 @@
           {
             "name": "Blue Pikmin: 86",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|43",
-              "$blue_pikmin_location_is|86"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|43, ship_part_total:5",
+              "$blue_pikmin_location_is|86, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5958,10 +5958,10 @@
           {
             "name": "Blue Pikmin: 87",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|29",
-              "$blue_pikmin_location_is|87"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|29, ship_part_total:5",
+              "$blue_pikmin_location_is|87, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -5976,14 +5976,14 @@
           {
             "name": "Blue Pikmin: 88",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|22",
-              "$blue_pikmin_location_is|44",
-              "$blue_pikmin_location_is|88"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|22, ship_part_total:5",
+              "$blue_pikmin_location_is|44, ship_part_total:5",
+              "$blue_pikmin_location_is|88, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6002,8 +6002,8 @@
           {
             "name": "Blue Pikmin: 89",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|89"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|89, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6016,18 +6016,18 @@
           {
             "name": "Blue Pikmin: 90",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|15",
-              "$blue_pikmin_location_is|18",
-              "$blue_pikmin_location_is|30",
-              "$blue_pikmin_location_is|45",
-              "$blue_pikmin_location_is|90"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|15, ship_part_total:5",
+              "$blue_pikmin_location_is|18, ship_part_total:5",
+              "$blue_pikmin_location_is|30, ship_part_total:5",
+              "$blue_pikmin_location_is|45, ship_part_total:5",
+              "$blue_pikmin_location_is|90, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6063,10 +6063,10 @@
           {
             "name": "Blue Pikmin: 91",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|13",
-              "$blue_pikmin_location_is|91"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|13, ship_part_total:5",
+              "$blue_pikmin_location_is|91, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6081,12 +6081,12 @@
           {
             "name": "Blue Pikmin: 92",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|23",
-              "$blue_pikmin_location_is|46",
-              "$blue_pikmin_location_is|92"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|23, ship_part_total:5",
+              "$blue_pikmin_location_is|46, ship_part_total:5",
+              "$blue_pikmin_location_is|92, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6103,10 +6103,10 @@
           {
             "name": "Blue Pikmin: 93",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|31",
-              "$blue_pikmin_location_is|93"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|31, ship_part_total:5",
+              "$blue_pikmin_location_is|93, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6121,10 +6121,10 @@
           {
             "name": "Blue Pikmin: 94",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|47",
-              "$blue_pikmin_location_is|94"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|47, ship_part_total:5",
+              "$blue_pikmin_location_is|94, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6139,10 +6139,10 @@
           {
             "name": "Blue Pikmin: 95",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|19",
-              "$blue_pikmin_location_is|95"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|19, ship_part_total:5",
+              "$blue_pikmin_location_is|95, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6157,18 +6157,18 @@
           {
             "name": "Blue Pikmin: 96",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|6",
-              "$blue_pikmin_location_is|8",
-              "$blue_pikmin_location_is|12",
-              "$blue_pikmin_location_is|16",
-              "$blue_pikmin_location_is|24",
-              "$blue_pikmin_location_is|32",
-              "$blue_pikmin_location_is|48",
-              "$blue_pikmin_location_is|96"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|6, ship_part_total:5",
+              "$blue_pikmin_location_is|8, ship_part_total:5",
+              "$blue_pikmin_location_is|12, ship_part_total:5",
+              "$blue_pikmin_location_is|16, ship_part_total:5",
+              "$blue_pikmin_location_is|24, ship_part_total:5",
+              "$blue_pikmin_location_is|32, ship_part_total:5",
+              "$blue_pikmin_location_is|48, ship_part_total:5",
+              "$blue_pikmin_location_is|96, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6191,8 +6191,8 @@
           {
             "name": "Blue Pikmin: 97",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|97"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|97, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6205,12 +6205,12 @@
           {
             "name": "Blue Pikmin: 98",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|7",
-              "$blue_pikmin_location_is|14",
-              "$blue_pikmin_location_is|49",
-              "$blue_pikmin_location_is|98"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|7, ship_part_total:5",
+              "$blue_pikmin_location_is|14, ship_part_total:5",
+              "$blue_pikmin_location_is|49, ship_part_total:5",
+              "$blue_pikmin_location_is|98, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6227,12 +6227,12 @@
           {
             "name": "Blue Pikmin: 99",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|3",
-              "$blue_pikmin_location_is|9",
-              "$blue_pikmin_location_is|11",
-              "$blue_pikmin_location_is|33",
-              "$blue_pikmin_location_is|99"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|3, ship_part_total:5",
+              "$blue_pikmin_location_is|9, ship_part_total:5",
+              "$blue_pikmin_location_is|11, ship_part_total:5",
+              "$blue_pikmin_location_is|33, ship_part_total:5",
+              "$blue_pikmin_location_is|99, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
@@ -6249,15 +6249,15 @@
           {
             "name": "Blue Pikmin: 100",
             "access_rules": [
-              "$blue_pikmin_location_is|1",
-              "$blue_pikmin_location_is|2",
-              "$blue_pikmin_location_is|4",
-              "$blue_pikmin_location_is|5",
-              "$blue_pikmin_location_is|10",
-              "$blue_pikmin_location_is|20",
-              "$blue_pikmin_location_is|25",
-              "$blue_pikmin_location_is|50",
-              "$blue_pikmin_location_is|100"
+              "$blue_pikmin_location_is|1, ship_part_total:5",
+              "$blue_pikmin_location_is|2, ship_part_total:5",
+              "$blue_pikmin_location_is|4, ship_part_total:5",
+              "$blue_pikmin_location_is|5, ship_part_total:5",
+              "$blue_pikmin_location_is|10, ship_part_total:5",
+              "$blue_pikmin_location_is|20, ship_part_total:5",
+              "$blue_pikmin_location_is|25, ship_part_total:5",
+              "$blue_pikmin_location_is|50, ship_part_total:5",
+              "$blue_pikmin_location_is|100, ship_part_total:5"
             ],
             "visibility_rules": [
               "$blue_pikmin_location_is|1",
