@@ -99,9 +99,92 @@ function incrementItem(item_code, item_type, multiplier)
 	end
 end
 
+-- slot_data recu a la connexion (fill_slot_data cote apworld)
+SLOT_DATA = {}
+SKIP_EVENTS = {} -- set : SKIP_EVENTS["nom"] == true
+
+-- lit une valeur avec defaut
+local function sd(key, default)
+	local v = SLOT_DATA[key]
+	if v == nil then return default end
+	return v
+end
+
+-- helpers pour pousser une valeur dans un item du tracker (ignore si le code n'existe pas)
+local function setToggle(code, value)
+	local obj = Tracker:FindObjectForCode(code)
+	if obj then obj.Active = value and true or false end
+end
+
+local function setStage(code, value)
+	local obj = Tracker:FindObjectForCode(code)
+	if obj and value ~= nil then obj.CurrentStage = value end
+end
+
+local function setCount(code, value)
+	local obj = Tracker:FindObjectForCode(code)
+	if obj and value ~= nil then obj.AcquiredCount = value end
+end
+
 -- apply everything needed from slot_data, called from onClear
 function apply_slot_data(slot_data)
-	-- put any code here that slot_data should affect (toggling setting items for example)
+	SLOT_DATA = slot_data or {}
+
+	-- listes -> sets
+	SKIP_EVENTS = {}
+	for _, ev in ipairs(sd("skip_events", {})) do
+		SKIP_EVENTS[ev] = true
+	end
+	TRAP_LINK_CONVERSION_TRAPS = {}
+	for _, t in ipairs(sd("trap_link_conversion_traps", {})) do
+		TRAP_LINK_CONVERSION_TRAPS[t] = true
+	end
+
+	-- valeurs simples
+	--NORMAL_FIRST_DAY         = sd("normal_first_day", 0)
+	DISABLE_PIKMIN_TRIP      = sd("disable_pikmin_trip", 0) -- 0 off, 1 always, 2 item
+	--ALWAYS_MIN_ONE_LEAF      = sd("always_min_one_leaf", 0)
+	--DAY_CYCLE_MODE           = sd("day_cycle_mode", 0)
+	--DAY_CYCLE_MIN            = sd("day_cycle_min", 0)
+	--DAY_CYCLE_MAX            = sd("day_cycle_max", 0)
+	--DAY_CYCLE_FIXED          = sd("day_cycle_fixed", 0)
+	--SHIP_PART_HINT_MODE      = sd("ship_part_hint_mode", 0)
+	--HINTS                    = sd("hints", {})
+	--GAME_ID_SUFFIX           = sd("game_id_suffix", "000")
+	--DEATH_LINK               = sd("death_link", 0)
+	--PIKMIN_DEATH_AMOUNT      = sd("pikmin_death_amount", 0)
+	--PIKMIN_BOND              = sd("pikmin_bond", 0)
+	--PIKMIN_BOND_DAMAGE       = sd("pikmin_bond_damage", 0)
+	--TRAP_LINK                = sd("trap_link", 0)
+	--TRAP_LINK_CONVERSION     = sd("trap_link_conversion", 0)
+	APWORLD_VERSION          = sd("apworld_version", "")
+	ENABLE_PIKMIN_LOCATIONS  = sd("enable_pikmin_locations", 0)
+	RED_PIKMIN_ENABLED       = sd("red_pikmin_locations_enabled", 0)
+	RED_PIKMIN_INTERVAL      = sd("red_pikmin_interval", 0)
+	YELLOW_PIKMIN_ENABLED    = sd("yellow_pikmin_locations_enabled", 0)
+	YELLOW_PIKMIN_INTERVAL   = sd("yellow_pikmin_interval", 0)
+	BLUE_PIKMIN_ENABLED      = sd("blue_pikmin_locations_enabled", 0)
+	BLUE_PIKMIN_INTERVAL     = sd("blue_pikmin_interval", 0)
+
+	-- application aux items du tracker (adapter les codes a ceux de items/*.json)
+	setToggle("trip_imunity", DISABLE_PIKMIN_TRIP == 1)
+	setToggle("pikmin_location", ENABLE_PIKMIN_LOCATIONS == 1)
+
+	if ENABLE_PIKMIN_LOCATIONS == 1 then
+		if RED_PIKMIN_ENABLED == 1 then
+			setCount("red_pikmin_location", RED_PIKMIN_INTERVAL)
+		end
+		if YELLOW_PIKMIN_ENABLED == 1 then
+			setCount("yellow_pikmin_location", YELLOW_PIKMIN_INTERVAL)
+		end
+		if BLUE_PIKMIN_ENABLED == 1 then
+			setCount("blue_pikmin_location", BLUE_PIKMIN_INTERVAL)
+		end
+	end
+
+	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		print(string.format("apply_slot_data: apworld %s, suffix %s", tostring(APWORLD_VERSION), tostring(GAME_ID_SUFFIX)))
+	end
 end
 
 -- called right after an AP slot is connected
@@ -391,8 +474,6 @@ end
 -- add AP callbacks
 -- un-/comment as needed
 Archipelago:AddClearHandler("clear handler", onClear)
---Tracker:FindObjectForCode("trip_imunity").Active = slot_data.disable_pikmin_trip == 1
---Tracker:FindObjectForCode("ship_part_hint_mode").CurrentStage = slot_data.ship_part_hint_mode
 
 	if AUTOTRACKER_ENABLE_ITEM_TRACKING then
 		Archipelago:AddItemHandler("item handler", onItem)
