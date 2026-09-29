@@ -567,6 +567,16 @@
 	]
   },
 
+  /////  Auto Tab Switch  /////
+
+  {
+	"name": "Auto Tab Switch",
+	"type": "toggle",
+	"codes": "auto_tab",
+	"img": "images/option/logic_difficulty_hard.png",
+  "initial_active_state": true
+  },
+
   ///// Goal  /////
 
   {

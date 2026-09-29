@@ -72,6 +72,16 @@
                   "type": "layout",
                   "key": "logic_difficulty"
                   }
+                },
+                
+                {
+                "type": "group",
+                "header": "Auto Tab",
+                "dock": "left",
+                "content": {
+                  "type": "layout",
+                  "key": "auto_tab"
+                  }
                 }/*,
                 /*{
                 "type": "group",

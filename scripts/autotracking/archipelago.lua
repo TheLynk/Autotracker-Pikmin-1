@@ -371,12 +371,40 @@ function onScout(location_id, location_name, item_id, item_name, item_player)
 	-- not implemented yet :(
 end
 
--- called when a bounce message is received
+STAGE_TO_TABS = {
+    ["World Map"]          = { "World Map" },
+    ["The Impact Site"]    = { "The Impact Site [TIS]" },
+    ["The Forest of Hope"] = { "The Forest of Hope [TFoH]" },
+    ["The Forest Navel"]   = { "The Forest Navel [TFN]" },
+    ["The Distant Spring"] = { "The Distant Spring [TDS]" },
+    ["The Final Trial"]    = { "The Final Trial [TFT]" },
+    ["Red Onion"]          = { "Pikmin Location" },
+    ["Yellow Onion"]       = { "Pikmin Location" },
+    ["Blue Onion"]         = { "Pikmin Location" },
+}
+
 function onBounce(json)
-	if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-		print(string.format("called onBounce: %s", dump_table(json)))
-	end
-	-- your code goes here
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(string.format("called onBounce: %s", dump_table(json)))
+    end
+    local data = json["data"]
+    if not data then return end
+
+    local stage = data["pikmin_stage_name"]
+    if not stage then return end
+
+    -- désactivable via un toggle dans le tracker
+    local auto = Tracker:FindObjectForCode("auto_tab")
+    if auto and not auto.Active then return end
+
+    local tabs = STAGE_TO_TABS[stage]
+    if tabs then
+        for _, tab in ipairs(tabs) do
+            Tracker:UiHint("ActivateTab", tab)
+        end
+    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print("onBounce: pas d'onglet pour " .. stage)
+    end
 end
 
 -- called whenever Archipelago:Get returns data from the data storage or
@@ -485,4 +513,4 @@ Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddRetrievedHandler("retrieved handler", onDataStorageUpdate)
 Archipelago:AddSetReplyHandler("set reply handler", onDataStorageUpdate)
 -- Archipelago:AddScoutHandler("scout handler", onScout)
--- Archipelago:AddBouncedHandler("bounce handler", onBounce)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)
